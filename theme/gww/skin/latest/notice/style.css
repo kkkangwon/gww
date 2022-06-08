@@ -1,0 +1,109 @@
+@charset "utf-8";
+ul.latest_notice {
+}
+ul.latest_notice li {
+    border-bottom: 1px #ddd solid;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+ul.latest_notice li:not(:first-child) {
+   
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+ul.latest_notice li:first-child a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+ul.latest_notice li a:hover { 
+    text-decoration: none;
+    color: #000;
+}
+
+ul.latest_notice li:first-child {
+    border: 0;
+    margin-bottom: 18px;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 30px;
+}
+
+ul.latest_notice li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555555
+} 
+@media(max-width:991px) {
+
+ul.latest_notice li {
+        border-bottom: 1px #ddd solid;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        display: inline-block;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    ul.latest_notice li a {
+        font-size: 14px;
+        font-weight: 600;
+        color: #000;
+    }
+    ul.latest_notice li:first-child {
+        border: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        line-height: 24px;
+    }
+    
+    ul.latest_notice li:not(:first-child) a {
+        font-size: 14px;
+        font-weight: 500;
+        color: 
+        #555555
+    }
+}
+/* 
+ul.latest_notice {
+}
+
+ul.latest_notice li {
+    border-bottom: 1px #ddd solid;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+ul.latest_notice li a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+ul.latest_notice li.notice a:hover,
+ul.latest_notice li a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+ul.latest_notice li.notice {
+    border: 0;
+    margin-bottom: 18px;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 30px;
+}
+
+ul.latest_notice li:not(.notice) a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555555
+} */

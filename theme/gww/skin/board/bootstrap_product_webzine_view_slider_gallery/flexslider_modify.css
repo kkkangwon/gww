@@ -1,0 +1,185 @@
+.flex_wrap {
+    position: relative;
+    border: 1px #e1e1e1 solid;
+    padding: 15px 15px;
+}
+
+#carousel {
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    width: 300px;
+    background: #fff;
+
+    border: 0;
+    padding: 5px 5px;
+    margin-left: 25px;
+    margin-top: 32px;
+    border-radius: 0;
+
+
+}
+#carousel.file_1 {
+    width: 90px;
+}
+#carousel.file_2 {
+    width: 200px;
+}
+#carousel .slides {
+    position: relative;
+}
+
+.flexslider {
+    z-index: 0;
+    /* padding-bottom: 0; */
+    margin-bottom: 0;
+}
+
+/* 원본 */
+.flex-direction-nav a {
+    text-decoration: none;
+    display: block;
+    width: 50px;
+    height: 65px;
+    /* margin: -20px 0 0; */
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    overflow: hidden;
+    opacity: 1;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 1);
+    /*  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);*/
+    text-shadow: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.2);
+
+}
+
+#slider .flex-direction-nav a {
+
+    width: 80px;
+    height: 90px;
+
+}
+
+#slider .flex-direction-nav a:before {
+    font-family: FontAwesome;
+    content: "\f104";
+    font-size: 85px;
+    display: inline-block;
+    color: #fff;
+    text-shadow: none;
+}
+
+#slider .flex-direction-nav a.flex-next:before {
+    content: '\f105';
+    padding-right: 32px;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+#carousel .flex-direction-nav a {
+    width: 26px;
+    height: 32px;
+    background: transparent;
+    padding-top: 6px;
+}
+
+#carousel .flex-direction-nav a:before {
+    font-family: FontAwesome;
+    content: "\f104";
+    font-size: 28px;
+    display: inline-block;
+    color: #fff;
+    text-shadow: none;
+}
+
+#carousel .flex-direction-nav a.flex-next:before {
+    content: '\f105';
+}
+
+.flex-direction-nav a:hover,
+.flex-direction-nav a:focus {
+    outline: none;
+}
+
+.flex-direction-nav .flex-prev {
+    left: 10px;
+    padding-right: 15px;
+}
+
+.flex-direction-nav .flex-next {
+    right: 10px;
+    padding-left: 15px;
+    text-align: right;
+}
+
+.flexslider:hover .flex-direction-nav .flex-prev {
+    opacity: 1;
+    left: 10px;
+}
+
+.flexslider:hover .flex-direction-nav .flex-prev:hover {
+    opacity: 1;
+}
+
+.flexslider:hover .flex-direction-nav .flex-next {
+    opacity: 1;
+    right: 10px;
+}
+
+.flexslider:hover .flex-direction-nav .flex-next:hover {
+    opacity: 1;
+}
+@media(max-width:991px) { 
+    #carousel {
+        display:none;
+    }
+    #slider .flex-direction-nav a {
+
+        width: 50px;
+        height: 60px;
+    
+    }
+    
+    #slider .flex-direction-nav a:before {
+        font-family: FontAwesome;
+        content: "\f104";
+        font-size: 55px;
+        display: inline-block;
+        color: #fff;
+        text-shadow: none;
+    }
+    
+    #slider .flex-direction-nav a.flex-next:before {
+        content: '\f105';
+        padding-right: auto;
+        margin-left: auto;
+    }
+    .flex-direction-nav .flex-prev {
+        left: 0;
+        padding-right: 5px;
+    }
+    .flex-direction-nav .flex-next {
+        right: 0;
+        padding-left: 15px;
+        text-align: right;
+    }
+
+}
+@media(max-width:768px) {
+    .flex-direction-nav a:before {
+
+        font-size: 40px;
+
+    }

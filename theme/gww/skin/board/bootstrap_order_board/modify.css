@@ -1,0 +1,230 @@
+/* 게시판 목록 */
+
+#bo_list {
+    position: relative;
+    margin-bottom: 20px
+}
+
+#bo_list:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    content: ""
+}
+
+.tbl_head01 td {
+    line-height: 1.9em;
+}
+
+#bo_list .td_num2 {
+    width: 120px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#bo_list .td_num {
+    width: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#bo_list .td_date {
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#bo_list .td_datetime {
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#bo_list .td_name {
+    width: 150px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+#bo_list .td_name .tbl_head01 td {
+    color: #666;
+    padding: 10px 5px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    line-height: 1.4em;
+    height: 60px;
+    word-break: break-all;
+}
+
+.tbl_head01 td a {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.tbl_head01 td a:hover {
+    text-decoration: none;
+}
+
+#bo_list tbody .even td {
+    background: #fff;
+}
+
+.bo_notice td {
+    background: #fff !important;
+    border-bottom: 1px solid #ddd;
+}
+
+.bo_notice td a {
+    font-weight: 600;
+}
+
+.bo_notice .notice_icon {
+    display: inline-block;
+    line-height: 25px;
+    border-radius: 0;
+    font-weight: bold;
+    color: #000;
+    font-size: 13px;
+    border: 1px #eee solid;
+    background-color: #f3f3f3;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+#bo_list tbody tr:hover {
+    border-left: 1px solid #000;
+    background-color: #fff;
+}
+
+.bo_cate_link {
+    float: left;
+    display: inline-block;
+    margin-right: 10px;
+    background: #f7f7f7;
+    border: 1px solid #eeeeee;
+    color: #000;
+    font-weight: normal !important;
+    height: 24px;
+    line-height: 0;
+    padding: 12px 8px;
+    border-radius: 0;
+    font-size: 13px !important;
+}
+
+
+
+#bo_list .cnt_cmt {
+    background: #f0f0f0;
+    color: #959595;
+    font-size: 11px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 5px;
+    border-radius: 3em;
+    vertical-align: middle;
+}
+
+#bo_btn_top .btn {
+    font-size: 12px;
+}
+/* 게시판 목록 마감 */
+
+
+/* 게시판 뷰 페이지 */
+
+#bo_v_title .bo_v_tit {
+    border-top: 2px #000 solid;
+    border-bottom: 1px #e0e0e0 solid;
+    background-color: #fcfcfc;
+    display: block;
+    font-size: 19px;
+    font-weight: 900;
+    padding-left: 20px;
+    margin: 5px 0 0;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    word-break: break-all;
+}
+
+#bo_v_info .profile_info .pf_img img {
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    margin-right: 10px;
+}
+
+#bo_v_info .profile_info {
+    margin: 10px 0 10px;
+    display: inline-block;
+    float: left;
+    padding-left: 20px;
+}
+
+#bo_v_info .sv_member,
+#bo_v_info .sv_guest,
+#bo_v_info .member,
+#bo_v_info .guest {
+    font-weight: bold;
+}
+
+#bo_v_sns {
+    padding: 0;
+    list-style: none;
+    zoom: 1;
+    float: right;
+    display: inline-block
+}
+
+#bo_v_sns:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    content: ""
+}
+
+#bo_v_sns li {
+    float: left;
+    width: 35px;
+    margin-right: 3px;
+    text-align: left
+}
+
+#bo_v_sns li a {
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 3em;
+    color: #fff;
+    font-size: 0.95em;
+    padding-left: 6px;
+}
+
+#bo_v_sns li img {
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+#bo_v_sns li .sns_f {
+    display: block;
+    background: #3b5997
+}
+
+#bo_v_sns li .sns_t {
+    display: block;
+    background: #09aeee
+}
+
+#bo_v_sns li .sns_g {
+    display: block;
+    background: #ea4026
+}
+
+#bo_v_sns li .sns_k {
+    display: block;
+    background: #fbe300
+}
+
+#bo_v_sns li span {
+    display: none;
+}

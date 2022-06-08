@@ -1,0 +1,324 @@
+/* 게시판 목록 */
+
+#bo_list {
+    position: relative;
+    margin-bottom: 20px
+}
+
+#bo_list:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    content: ""
+}
+
+.tbl_head01 td {
+    line-height: 1.9em;
+}
+
+#bo_list .td_num2 {
+    width: 120px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#bo_list .td_num {
+    width: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#bo_list .td_date {
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#bo_list .td_datetime {
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#bo_list .td_name {
+    width: 150px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+#bo_list .td_name .tbl_head01 td {
+    color: #666;
+    padding: 10px 5px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    line-height: 1.4em;
+    height: 60px;
+    word-break: break-all;
+}
+
+.tbl_head01 td a {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.tbl_head01 td a:hover {
+    text-decoration: none;
+}
+
+#bo_list tbody .even td {
+    background: #fff;
+}
+
+.bo_notice td {
+    background: #fff !important;
+    border-bottom: 1px solid #ddd;
+}
+
+.bo_notice td a {
+    font-weight: 600;
+}
+
+.bo_notice .notice_icon {
+    display: inline-block;
+    line-height: 25px;
+    border-radius: 0;
+    font-weight: bold;
+    color: #000;
+    font-size: 13px;
+    border: 1px #eee solid;
+    background-color: #f3f3f3;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+#bo_list tbody tr:hover {
+    border-left: 1px solid #000;
+    background-color: #fff;
+}
+
+.bo_cate_link {
+    float: left;
+    display: inline-block;
+    margin-right: 10px;
+    background: #f7f7f7;
+    border: 1px solid #eeeeee;
+    color: #000;
+    font-weight: normal !important;
+    height: 24px;
+    line-height: 0;
+    padding: 12px 8px;
+    border-radius: 0;
+    font-size: 13px !important;
+}
+
+#bo_list .bo_tit .fa-download {
+    display: inline-block;
+    width: 16px;
+    line-height: 16px;
+    font-size: 0.833em;
+    color: #8a8a8a;
+    background: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 2px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+#bo_list .bo_tit .fa-link {
+    display: inline-block;
+    width: 16px;
+    line-height: 16px;
+    font-size: 0.833em;
+    color: #959595;
+    background: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 2px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+#bo_list .cnt_cmt {
+    background: #f0f0f0;
+    color: #959595;
+    font-size: 11px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 5px;
+    border-radius: 3em;
+    vertical-align: middle;
+}
+
+.bo_fx {
+    margin-top: 20px;
+}
+#bo_btn_top .btn {
+    font-size: 12px;
+}
+/* 게시판 목록 마감 */
+
+
+/* 토 글 */
+
+.togle-wrap span.badge {
+    background-color: #eee;
+    font-size: 11px;
+    letter-spacing: -0.5;
+}
+
+.togle-wrap {
+    border-top: 2px #000 solid;
+}
+
+.togle-wrap dl {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.togle-wrap dt {
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-bottom: 20px;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 28px;
+    cursor: pointer;
+    border-bottom: 1px #eee solid;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+
+p.icon{
+    float: right;
+    font-family:FontAwesome;
+    margin-right: 50px;
+
+  
+}
+p.icon::before {
+    content:"\f107";
+    color: #000;
+
+
+}
+.togle-wrap dt.active p.icon::before {
+    content:"\f106";
+    color: #000;
+
+}
+.togle-wrap dt:hover,
+.togle-wrap dt.active {
+    background-color: #fbfbfb;
+    font-weight: 700;
+}
+
+.togle-wrap dt a,
+.togle-wrap dt a:visited,
+.togle-wrap dt a:link,
+.togle-wrap dt a:hover,
+.togle-wrap dt a:active {
+    list-style: none;
+    text-decoration: none;
+}
+
+.togle-wrap dt span {
+    font-size: 13px;
+    font-weight: 400;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #000;
+}
+
+.togle-wrap dt span.num {
+    padding-right: 15px;
+    margin-right: 15px;
+    border-right: 1px #eee solid;
+}
+
+.togle-wrap dd {
+    padding: 20px 20px 20px 35px;
+    clear: both;
+    border-bottom: 1px #eee solid;
+}
+
+#bo_cate a {
+    min-width: 200px;
+}
+
+dd.acc_container .btn_wrap {
+    display:block;
+    margin-top: 20px;
+}
+
+@media(max-width:768px) {
+    #bo_list .td_name {
+        width: 80px;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 13px;
+    }
+    #bo_list .td_num2 {
+        width: 50px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .tbl_head01 td a {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    /* 토 글 */
+    #bo_cate a {
+        min-width: 100%;
+    }
+    #bo_cate_ul li {
+        width: 100%;
+    }
+    #bo_cate #bo_cate_on {
+        z-index: 2;
+        border: 1px solid #565e60;
+        background: #fff;
+        color: #000;
+        font-weight: bold;
+    }
+  
+    .carousel,
+    .item,
+    .active {
+        height: auto;
+    }
+    p.icon {
+    }
+    .togle-wrap dt {
+        padding-left: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 22px;
+        cursor: pointer;
+        border-bottom: 1px #eee solid;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -o-transition: 0.5s;
+        -ms-transition: 0.5s;
+    }
+    
+    
+    p.icon{
+        float: right;
+        font-family:FontAwesome;
+        margin-right: 25px;
+    
+      
+    }
+    .togle-wrap dd {
+        padding: 20px 15px 20px 15px;
+        clear: both;
+        border-bottom: 1px #eee solid;
+    }
+}

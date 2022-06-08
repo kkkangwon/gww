@@ -1,0 +1,24 @@
+@media(max-width:768px) {
+    #bo_list .td_name {
+        width: 80px;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 13px;
+    }
+    #bo_list .td_num2 {
+        width: 50px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .tbl_head01 td a {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .td_img {
+    text-align: center;
+    width: 120px;
+}
+    .td_subject {
+    padding-left: 10px !important;
+}
+}

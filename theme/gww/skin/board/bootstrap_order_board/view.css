@@ -1,0 +1,164 @@
+
+#bo_v_title .bo_v_tit {
+    border-top: 2px #000 solid;
+    border-bottom: 1px #e0e0e0 solid;
+    background-color: #fcfcfc;
+    display: block;
+    font-size: 19px;
+    font-weight: 900;
+    padding-left: 20px;
+    margin: 5px 0 0;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    word-break: break-all;
+}
+
+#bo_v_info .profile_info .pf_img img {
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    margin-right: 10px;
+}
+
+#bo_v_info .profile_info {
+    margin: 10px 0 10px;
+    display: inline-block;
+    float: left;
+    padding-left: 20px;
+}
+
+#bo_v_info .sv_member,
+#bo_v_info .sv_guest,
+#bo_v_info .member,
+#bo_v_info .guest {
+    font-weight: bold;
+}
+
+#bo_v_sns {
+    padding: 0;
+    list-style: none;
+    zoom: 1;
+    float: right;
+    display: inline-block
+}
+
+#bo_v_sns:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    content: ""
+}
+
+#bo_v_sns li {
+    float: left;
+    width: 35px;
+    margin-right: 3px;
+    text-align: left
+}
+
+#bo_v_sns li a {
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 3em;
+    color: #fff;
+    font-size: 0.95em;
+    padding-left: 6px;
+}
+
+#bo_v_sns li img {
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+#bo_v_sns li .sns_f {
+    display: block;
+    background: #3b5997
+}
+
+#bo_v_sns li .sns_t {
+    display: block;
+    background: #09aeee
+}
+
+#bo_v_sns li .sns_g {
+    display: block;
+    background: #ea4026
+}
+
+#bo_v_sns li .sns_k {
+    display: block;
+    background: #fbe300
+}
+
+#bo_v_sns li span {
+    display: none;
+}
+/* 견적 테이블 */
+#bo_v_atc table {
+    margin-top: 20px;
+    border-top: 2px #000 solid;
+    border-bottom: 1px #ddd solid;
+}
+#bo_v_atc table th {
+    width: 120px;
+    background-color: #fff;
+}
+
+#bo_v_atc table th,
+#bo_v_atc table td {
+    font-size:16px;
+}
+#bo_v_atc table td::before {
+     content: "| ";
+     padding-right: 20px;
+     color: #ddd;
+}
+/* 견적 테이블 마감 */
+
+@media all and (max-width:768px) {
+    #bo_v_title .bo_v_tit {
+        border-top: 2px #000 solid;
+        border-bottom: 1px #e0e0e0 solid;
+        background-color: #fcfcfc;
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+        padding-left: 20px;
+        margin: 5px 0 0;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        word-break: break-all;
+    }
+    #bo_v_share {
+        border-top: 1px #eee solid;
+    }
+    .spac-table {
+        margin-top: 20px;
+    }
+    #board_product_wrap .content_text {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #bo_v_info .if_date {
+        display:none;
+    }
+    .bo_v_com > li {
+        position: relative;
+        float: left;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+ 
+    .wzd_board_header h1 {
+        padding-left: 15px;
+        font-size: 18px;
+    }
+    #bo_v_con {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-right: 0;
+    }
+}

@@ -1,0 +1,23 @@
+
+/* 슬라이드 */
+@media all and (max-width:768px) {
+    #board_product_wrap h4 {
+    padding-top: 12px;
+    }
+    .wzd_board_header h1 {
+        font-size: 28px !important;
+        padding-top: 0;
+    }
+    #bo_v_share {
+        border-top: 1px #eee solid;
+        
+    }
+    .spac-table {
+        margin-top: 20px;
+    }
+    #board_product_wrap .content_text {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+}

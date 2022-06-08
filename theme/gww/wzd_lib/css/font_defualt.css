@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,700);
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+@import url('http://cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 예시 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Nanum Gothic';  400,700,800
+font-family: 'Roboto', sans-serif;
+@font-face 
+ font-family: 'NanumSquare';
+font-family: 'Lato', 'Noto Sans KR', Tahoma, Geneva, sans-serif;
+font-family: 'Nanum Myeongjo';
+font-family: 'Nanum Barun Gothic', sans-serif;
+font-family: 'Cairo', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Titillium Web', sans-serif;
+
+*/
+
+ 
+html, body {
+	color:#474747; font-family:'Noto Sans KR', '맑은 고딕',  'Nanum Gothic', 'Malgun Gothic', '돋움', 'Ubuntu', dotum, sans-serif; 
+}
+
+
+
+div, li, ul, p, dl, dt, dd, h1, h2, h3, h4, h5, h6 {font-family:'Noto Sans KR', '맑은 고딕',  'Nanum Gothic', 'Malgun Gothic', '돋움', 'Ubuntu', dotum, sans-serif; color: #474747;   }
+#sub_content {
+	font-size:19px;
+}
+#bo_v_con{ font-size:17px;
+}
+#sub_content.bbs {
+	font-size:14px;
+}
+#sub_content.bbs h1,
+#sub_content.bbs h2,
+#sub_content.bbs h4,
+#sub_content.bbs h5,
+#sub_content.bbs h6 {
+	font-family: 'Noto Sans KR';
+}
+
+@media (max-width: 991px) {
+    div, li, ul, p, dl, dt, dd, h1, h2, h3, h4, h5, h6, th, td {font-family:'Noto Sans KR', '맑은 고딕',  'Nanum Gothic', 'Malgun Gothic', '돋움', 'Ubuntu', dotum, sans-serif; color: #474747;  }
+	#sub_content #bo_v_con {
+		font-size:14px;
+	}
+
+}

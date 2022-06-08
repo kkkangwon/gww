@@ -1,0 +1,632 @@
+/* 인사말 */
+
+section.company h3.company_h3 {
+    font-size: 24px;
+    font-family: 'NanumSquare';
+    line-height: 36px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+section.company.company_01 .ceo-box {
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+section.company.company_01 .ceo-box .text {
+    font-size: 34px;
+    line-height: 46px;
+    font-family: 'NanumSquare';
+    margin-left: 161px;
+    color: #000;
+    margin-top: 105px;
+
+}
+
+section.company.company_01 .ceo-box .text p {
+    font-size: 19px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #333333;
+    position: relative;
+    display: inline-block;
+    font-family: 'NanumSquare';
+}
+
+section.company.company_01 .ceo-box .text p::before {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #000;
+    content: '';
+    margin-top: 36px;
+}
+
+section.company .about_text {
+    margin-top: 80px;
+}
+
+section.company .about_text h1 {
+    font-size: 52px;
+    color: #000;
+    font-weight: 900;
+    font-family: 'Noto Sans KR';
+    line-height: 66px;
+}
+
+section.company .about_text h1 span {
+    position: relative;
+    z-index: 0;
+}
+
+section.company .about_text h1 span::before {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 12px;
+    background: rgba(255, 234, 93, 1);
+    content: '';
+    margin-top: 52px;
+}
+
+section.company .about_text {
+    line-height: 33px;
+    font-size: 20px;
+}
+
+/* 인사말 마감 */
+
+/* 회사소개 */
+section.company.company_02 .ceo-box {
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}
+
+section.company.company_02 .ceo-box .text {
+    right: 0;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    text-align: right;
+    padding-right: 50px;
+    padding-bottom: 30px
+}
+
+section.company.company_02 .ceo-box .text p {
+    color: #fff;
+    font-size: 42px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    text-transform:
+
+}
+
+section.company.company_02 .table_wrap {
+    margin-top: 80px;
+}
+
+section.company.company_02 .table_wrap .table {
+    border-top: 3px #000 solid;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    padding: 20px 18px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #e3e3e3;
+}
+
+
+section.company_03 #tab_wrap {
+    border: 0;
+    border-top: 0;
+    border-bottom: 0;
+    margin-bottom: 80px;
+}
+
+section.company_03 .history-left h2 {
+    font-size: 47px;
+    color: #000;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    float: left;
+
+}
+
+section.company_03 .history-left h2 span {
+    font-size: 49px;
+    color: #000;
+    font-family: 'Noto Sans KR';
+    font-weight: 800;
+    padding-left: 0;
+    margin-left: 0;
+
+}
+
+section.company_03 .history-left span {
+    font-size: 26px;
+    line-height: 68px;
+    padding-left: 20px;
+}
+
+section.company_03 .history-left p.text {
+    color: #484848;
+    font-family: 'Noto Sans KR';
+    margin-top: 30px;
+
+
+}
+
+section.company_03 .history-left .image {
+    margin-top: 70px;
+}
+
+section.company_03 .history-right {
+    background: url("../../img/company/dot_back.png") 9px 0% repeat-y;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+section.company_03 .history-right .box {
+    background: url('../../img/company/dot.png') 0 14px no-repeat;
+    margin-bottom: 30px;
+    border-bottom: 0;
+    padding-left: 60px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+section.company_03 .history-right .box h2 {
+    font-weight: 900;
+    font-family: 'Noto Sans KR';
+    margin-bottom: 20px;
+    color: #000;
+}
+
+section.company_03 .history-right dl {
+    display: flex;
+    margin-bottom: 8px;
+
+}
+
+section.company_03 .history-right dl dt span {
+    background: #efefef;
+    display: block;
+    border-radius: 1em;
+    text-align: center;
+    font-size: 15px;
+    color: #a1a1a1;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 50px;
+    margin-right: 12px;
+    font-weight: 600;
+}
+
+section.company_03 .history-right dl dd {
+    font-size: 18px;
+    color: #686868;
+    font-weight: 400;
+
+}
+
+/* 회사소개 마감 */
+/* 오시는 길 */
+section.company_04 #map p.sky {
+    position: absolute;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 16px 48px 18px;
+}
+
+section.company_04 #map .root_daum_roughmap {
+    width: 100%;
+}
+
+section.company_04 .table_wrap {
+    margin-top: 60px;
+}
+
+section.company_04 .table_wrap .title h2 {
+    font-size: 33px;
+    font-weight: 900;
+    color: #000;
+    margin-bottom: 24px;
+    font-family: 'Noto Sans KR';
+}
+
+section.company_04 .table_wrap .title span {
+    font-size: 22px;
+    font-weight: 100;
+    color: #868686;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 12px;
+}
+
+section.company_04 .table_wrap .title a.btn {
+    font-size: 16px;
+    color: #000;
+    border: 1px #000 solid;
+    border-radius: 0;
+}
+
+section.company_04 .table_wrap .table {
+    border-bottom: 1px #ddd solid;
+}
+
+section.company_04 .table_wrap .table {
+    border-top: 3px #000 solid;
+}
+
+section.company_04 .table_wrap .table th,
+section.company_04 .table_wrap .table td {
+    font-size: 19px;
+    line-height: 32px;
+}
+
+section.company_04 .table_wrap .table span.blue {
+    background: #7182f5;
+    line-height: 14px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 0.2em;
+    margin-right: 6px;
+}
+
+/* 오시는 길 마감 */
+
+@media(min-width:992px) {
+    section.company .about_text .text {
+        margin-left: 70px;
+    }
+
+    section.company.company_02 .table_wrap .table tbody th,
+    section.company.company_04 .table_wrap .table tbody th {
+        width: 170px;
+        padding-left: 40px;
+    }
+
+    section.company_03 .history-right {
+        margin-left: 80px;
+    }
+
+    section.company_04 .table_wrap .table th,
+    section.company_04 .table_wrap .table td {
+        line-height: 32px;
+    }
+}
+
+@media(max-width:991px) {
+    section.company h3.company_h3 {
+        font-size: 16px;
+        font-family: 'NanumSquare';
+        line-height: 24px;
+        font-weight: 400;
+        margin-bottom: 0;
+        padding-bottom: 35px;
+    }
+
+    section.company.company_01 h3.company_h3 {
+        padding-bottom: 20px;
+    }
+
+    section.company.company_01 .ceo-box {
+        background-repeat: no-repeat;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        background-position: 60% 0%;
+        background-size: cover
+    }
+
+    section.company.company_01 .ceo-box .text {
+        font-size: 16px;
+        line-height: 22px;
+        font-family: 'NanumSquare';
+        margin-left: 20px;
+        color: #000;
+        margin-top: 42px;
+        font-weight: 900;
+
+    }
+
+    section.company.company_01 .ceo-box .text p {
+        font-size: 13px;
+        margin-top: 20px;
+        font-weight: 600;
+        color: #333333;
+        position: relative;
+        display: inline-block;
+        font-family: 'NanumSquare';
+    }
+
+    section.company.company_01 .ceo-box .text p::before {
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background: #000;
+        content: '';
+        margin-top: 20px;
+    }
+
+    section.company .about_text {
+        margin-top: 40px;
+        line-height: 26px;
+        font-size: 14px;
+    }
+
+    section.company .about_text h1 {
+        font-size: 24px;
+        color: #000;
+        font-weight: 900;
+        font-family: 'Noto Sans KR';
+        line-height: 34px;
+        margin-bottom: 32px;
+    }
+
+    section.company .about_text h1 span {
+        position: relative;
+        z-index: 0;
+    }
+
+    section.company .about_text h1 span::before {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 6px;
+        background: rgba(255, 234, 93, 1);
+        content: '';
+        margin-top: 28px;
+    }
+
+    /* 회사소개 */
+    section.company.company_02 .ceo-box {
+        background-repeat: no-repeat;
+        height: 180px;
+        position: relative;
+        /* margin-top: 42px; */
+        background-size: cover;
+
+    }
+
+    section.company.company_02 .ceo-box .text {
+        right: 0;
+        position: absolute;
+        bottom: 0;
+        color: #fff;
+        text-align: right;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        font-size: 12px;
+    }
+
+    section.company.company_02 .ceo-box .text p {
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 900;
+        text-transform:
+
+    }
+
+    section.company.company_02 .table_wrap {
+        margin-top: 40px;
+    }
+
+    section.company.company_02 .table_wrap .table {
+        border-top: 2px #000 solid;
+    }
+
+    section.company.company_02 .table_wrap .table tbody th {
+        min-width: 90px;
+    }
+
+    .table>tbody>tr>td,
+    .table>tbody>tr>th,
+    .table>tfoot>tr>td,
+    .table>tfoot>tr>th,
+    .table>thead>tr>td,
+    .table>thead>tr>th {
+        padding: 16px 18px;
+        line-height: 1.22857143;
+        vertical-align: top;
+        border-top: 1px solid #e3e3e3;
+    }
+
+    /* 회사소개 마감 */
+    /* 연혁 */
+    section.company_03 #tab_wrap {
+        border: 0;
+        border-top: 0;
+        border-bottom: 0;
+        margin-bottom: 30px;
+    }
+
+    section.company_03 .history-left h2 {
+        font-size: 28px;
+        color: #000;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 700;
+
+    }
+
+    section.company_03 .history-left h2 span {
+        font-size: 30px;
+        color: #000;
+        font-family: 'Noto Sans KR';
+        font-weight: 800;
+        padding-left: 0;
+        margin-left: 0;
+
+    }
+
+    section.company_03 .history-left span {
+        font-size: 16px;
+        line-height: 40px;
+        padding-left: 12px;
+        letter-spacing: 0;
+    }
+
+    section.company_03 .history-left p.text {
+        color: #484848;
+        font-family: 'Noto Sans KR';
+        margin-top: 6px;
+        text-align: center;
+
+
+    }
+
+    section.company_03 .history-left .image {
+        margin-top: 30px;
+    }
+
+    section.company_03 .history-right {
+        margin-top: 35px;
+        margin-left: 0;
+    }
+
+    section.company_03 .history-right .box {
+        background: url('http://theme06.wiztheme.co.kr/theme/theme06/img/sub/dot.png') 0 8px no-repeat;
+        margin-bottom: 20px;
+        border-bottom: 0;
+        padding-left: 40px;
+        font-size: 26px;
+        font-weight: 900;
+    }
+
+    section.company_03 .history-right .box h2 {
+        font-weight: 900;
+        font-family: 'Noto Sans KR';
+        margin-bottom: 16px;
+        color: #000;
+    }
+
+    section.company_03 .history-right dl {
+        display: flex;
+        margin-bottom: 8px;
+
+
+    }
+
+    section.company_03 .history-right dl dt span {
+        background: #efefef;
+        display: block;
+        border-radius: 1em;
+        text-align: center;
+        font-size: 13px;
+        color: #a1a1a1;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 42px;
+        margin-right: 12px;
+        font-weight: 600;
+    }
+
+    section.company_03 .history-right dl dd {
+        font-size: 14px;
+        color: #686868;
+        font-weight: 400;
+        padding-top: 2px;
+
+    }
+
+    /* 연혁 마감 */
+    /* 오시는 길 */
+    section.company_04 #map p.sky {
+        position: absolute;
+        z-index: 2;
+        background: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 12px 28px 12px;
+    }
+
+    section.company_04 .table_wrap {
+        margin-top: 30px;
+        border: 0;
+    }
+    section.company_04 .table_wrap .table {
+        border-left: 1px #ddd solid;
+
+    }
+    section.company_04 .table_wrap .title {
+        margin-bottom: 20px;
+    }
+    section.company_04 .table_wrap .title h2 {
+        font-size: 24px;
+        font-weight: 900;
+        color: #000;
+        margin-bottom: 6px;
+    }
+
+    section.company_04 .table_wrap .title span {
+        font-size: 13px;
+        font-weight: 100;
+        color: #868686;
+        padding-left: 6px;
+    }
+
+    section.company_04 .table_wrap  .title a.btn {
+        font-size: 13px;
+        color: #000;
+        border: 1px #000 solid;
+        border-radius: 0;
+    }
+    section.company_04 .table_wrap .table {
+        border-top: 2px #000 solid;
+    }
+    
+    section.company_04 .table_wrap .table th {
+        width: 60px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    section.company_04 .table_wrap .table th,
+    section.company_04 .table_wrap .table td {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    
+    section.company_04 .table_wrap .table span.blue {
+        background: #7182f5;
+        line-height: 14px;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        border-radius: 0.2em;
+        margin-right: 6px;
+    }
+    section.company_04 .embed-container {
+        position: relative;
+        padding-bottom: 80%;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+    }
+    
+    section.company_04 .embed-container iframe,
+    section.company_04 .embed-container object,
+    section.company_04 .embed-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    /* 오시는 길 마감  */
+
+
+}

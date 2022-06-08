@@ -1,0 +1,45 @@
+@media(max-width:768px) {
+    #bo_list .td_name {
+        width: 80px;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 13px;
+    }
+    #bo_list .td_num2 {
+        width: 50px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .tbl_head01 td a {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    /* 토 글 */
+    #bo_cate a {
+        min-width: 100%;
+    }
+    #bo_cate_ul li {
+        width: 100%;
+    }
+    #bo_cate #bo_cate_on {
+        z-index: 2;
+        border: 1px solid #565e60;
+        /* border-bottom: 1px #fff solid;*/
+        background: #fff;
+        color: #000;
+        font-weight: bold;
+    }
+    .togle-wrap dt {
+        line-height: 24px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .carousel,
+    .item,
+    .active {
+        height: auto;
+    }
+    p.icon {
+        display: none;
+    }
+}

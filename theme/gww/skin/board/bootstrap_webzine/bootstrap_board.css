@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* 리스트 */
+.tbl_wrap .table {
+    border-top: 2px #3f3f3f solid;
+}
+.tbl_head01 .table th {
+    background-color: #fff;
+    line-height: 28px;
+    border: 0;
+    
+
+}
+.tbl_head01 .table td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px #e2e2e2 solid
+}
+
+
+#bo_list .tbl_head01 a {
+    font-size: 15px;
+    text-decoration: none;
+}
+#bo_list .tbl_head01 a:hover {
+    color: #000;
+}
+.tbl_head01 .table td.td_num {
+    padding-left: 40px;
+    padding-right: 40px;
+    min-width: 40px;
+}
+
+.navbar-form {
+margin-right: -25px;
+    text-align: center;
+    margin: 0 auto;
+   }
+/* 쓰기  */
+.tbl_wrap th {
+    background-color: #f6f6f6;
+}
+
+/* 읽기 */
+article#bo_v header #bo_v_title { 
+    border-top: 2px #000 solid;
+    padding: 10px 0;
+    font-size: 1.2em;
+}
+.wzd_board_header {
+    border-top: 2px #000 solid;
+    border-bottom: 1px #eee solid;
+    
+}
+.wzd_board_header h1 {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 12px;
+    padding-left: 30px;
+}
+#bo_v_con {
+    padding: 30px;
+}
+#bo_v_bot {
+    border-top: 1px #eee solid;
+    padding-top: 15px;
+}
+/* 버튼 */
+.btn {
+    font-size: 12px !important;
+}
+a.btn-info  {
+    color: #fff;
+    font-weight: 600;
+}
+@media all and (max-width:768px) {
+    .wzd_board_header h1 {
+        padding-left: 15px;
+        font-size: 18px;
+    }
+    #bo_v_con {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-right: 0;
+    }
+    
+}

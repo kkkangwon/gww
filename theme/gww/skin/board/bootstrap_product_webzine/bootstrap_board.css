@@ -1,0 +1,264 @@
+@charset "utf-8";
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+.review-wrap {
+    /*    opacity: 0;*/
+}
+
+
+.review-wrap .thumbnail .caption {
+    padding: 25px 20px 10px 20px;
+    color: #000;
+}
+
+.review-wrap .thumbnail .caption h3 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 900;
+    margin: 0;
+    /*    text-align: center;*/
+}
+
+.review-wrap .thumbnail .caption .data_hit_wrap {
+    margin-top: 15px;
+
+}
+
+.review-wrap .thumbnail .caption .data_hit_wrap .date {
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.review-wrap .thumbnail .caption .data_hit_wrap .hit {
+    font-size: 14px;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: right;
+}
+
+.review-wrap .thumbnail .caption .data_hit_wrap i {
+    font-weight: 100;
+}
+
+
+.review-wrap .thumbnail {
+    /*            border: 1px #000 solid;*/
+    padding: 0;
+    background-color: #fff;
+    margin: 0;
+    /*
+            -webkit-box-shadow: 0 0 1px 3px rgba(0, 0, 0, .4);
+            -moz-box-shadow: 0 0 1px 3px rgba(0, 0, 0, .4);
+*/
+    /*            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);*/
+    /*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+    transition: 0.3s;
+    border-radius: 0;
+    border: 0;
+    /* 5px rounded corners */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.0);
+    border: 1px #d9d9d9 solid;
+}
+
+.review-wrap .thumbnail:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.review-wrap .thumbnail p {
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+/* 리스트 */
+.tbl_wrap .table {
+    border-top: 2px #3f3f3f solid;
+}
+
+.tbl_head01 .table th {
+    background-color: #fff;
+    line-height: 28px;
+    border: 0;
+
+
+}
+
+.tbl_head01 .table td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px #e2e2e2 solid
+}
+
+
+#bo_list .tbl_head01 a {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#bo_list .tbl_head01 a:hover {
+    color: #000;
+}
+
+.tbl_head01 .table td.td_num {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.navbar-form {
+    margin-right: -25px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* 쓰기  */
+.tbl_wrap th {
+    background-color: #f6f6f6;
+}
+
+/* 읽기 */
+article#bo_v header #bo_v_title {
+    border-top: 2px #000 solid;
+    padding: 10px 0;
+    font-size: 1.2em;
+}
+
+.wzd_board_header {
+    border-top: 2px #000 solid;
+    border-bottom: 1px #eee solid;
+
+}
+
+.wzd_board_header h1 {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 12px;
+    padding-left: 30px;
+}
+
+#bo_v_con {
+    padding: 30px;
+}
+
+#bo_v_bot {
+    border-top: 1px #eee solid;
+    padding-top: 15px;
+}
+
+/* 버튼 */
+.btn {
+    font-size: 12px !important;
+}
+
+a.btn-info {
+    color: #fff;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 992px) {
+    .review-wrap .thumbnail .caption {
+        padding: 0;
+        color: #000;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding: 15px 25px;
+    }
+    .review-wrap .thumbnail img {
+        width: 100%;
+    }
+
+    .review-wrap .thumbnail .caption a h3 {
+        font-size: 18px;
+        padding-top: 8px;
+    }
+
+    .review-wrap .row {
+        margin: 0;
+    }
+
+    .review-wrap .col-half-offset {
+        margin-left: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .review-wrap .row .col-xs-6 {
+        padding: 0 4px;
+        margin: 0;
+    }
+
+    .review-wrap .thumbnail .caption .data_hit_wrap {
+        margin-top: 6px;
+        
+
+    }
+
+    .review-wrap .thumbnail .caption .data_hit_wrap .date {
+        font-size: 14px;
+        font-family: 'Ubuntu', sans-serif;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .review-wrap .thumbnail .caption .data_hit_wrap .hit {
+        font-size: 14px;
+        font-size: 14px;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: none;
+    }
+
+    .review-wrap .thumbnail .caption .data_hit_wrap i {
+        font-weight: 100;
+    }
+}
+
+/* 슬라이드 */
+@media all and (max-width:768px) {
+    .wzd_board_header h1 {
+        padding-left: 15px;
+        font-size: 18px;
+    }
+
+    #bo_v_con {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-right: 0;
+    }
+
+}

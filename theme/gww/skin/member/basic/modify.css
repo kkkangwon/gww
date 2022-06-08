@@ -1,0 +1,322 @@
+/* 로그인 */
+
+html,
+body {
+    background-color: #f4f4f4 !important;
+}
+.page-header {
+    display:none;
+}
+
+.mbskin_box {
+    border: 0 !important;
+}
+
+#login_fs {
+    padding: 35px;
+    padding-top: 80px;
+    background: url("../../../img/main/logo-white.png")  50% -22px;
+    background-repeat: no-repeat;
+/*    background-position: 50% 10%;*/
+}
+
+.mb_log_cate h2 {
+    width: 50%;
+    float: left;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 4px;
+    margin-bottom: 0;
+    font-family: 'Noto Sans KR';
+}
+
+.mb_log_cate .join {
+    width: 50%;
+    float: left;
+    padding: 20px 0;
+    text-align: center;
+    background: #ececec;
+    color: #6e6e6e;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Noto Sans KR';
+}
+
+#mb_login #login_fs .btn_submit {
+    /*    margin: 0 0 15px;*/
+    margin-top: 5px;
+    border-radius: 0;
+    /* min-width: 100px; */
+    height: 55px;
+    line-height: 55px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #2f3d5d;
+    border-color: #2f3d5d;
+    color: #fff;
+    transition: 0.5s;
+}
+
+#mb_login #login_fs .btn_submit:hover {
+    border-color: #465d93;
+    background-color: #465d93;
+    color: #fff;
+}
+
+#mb_login #login_fs .frm_input {
+    border: 0;
+    box-shadow: none;
+    background-color: #f4f4f4;
+    border-radius: 0;
+    height: 55px;
+    line-height: 55px;
+    padding-left: 15px;
+}
+
+#login_password_lost {
+    display: inline-block;
+    border: 1px solid #ddd;
+    color: #000;
+    border-radius: 1px;
+    padding: 2px 8px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+#login_info .login_if_auto label {
+    vertical-align: baseline;
+    padding-left: 0;
+    font-size: 12px;
+}
+
+#sns_login .sns-naver,
+#sns_login .sns-kakao,
+#sns_login .sns-facebook,
+#sns_login .sns-google,
+#sns_login .sns-twitter,
+#sns_login .sns-payco {
+    border-radius: 0 !important;
+    border-bottom: 0 !important;
+}
+
+
+/* 회원정보 찾기 */
+
+.new_win #win_title {
+    font-size: 1.3em;
+    height: 50px;
+    line-height: 30px;
+    padding: 10px 20px;
+    color: #000;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 0;
+    background-color: #465d93;
+    color: #fff;
+}
+
+.new_win #win_title h1 {
+    margin-top: 0;
+}
+
+.new_win .new_win_con {
+    margin: 0;
+    padding: 10px 20px;
+}
+
+#find_info #mb_email {
+    margin: 10px 0;
+    background-color: #fff;
+}
+
+.new_win .btn_submit {
+    padding: 0 20px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 1.083em;
+    border-radius: 0;
+    background-color: #465d93;
+}
+
+.new_win .btn_close {
+    height: 37px;
+    width: 70px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+
+/* 회원가입 약관 */
+#fregister textarea {
+    font-size:15px;
+}
+#fregister p {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    font-size: 13px;
+    background: #646982;
+    margin: 0;
+    border-radius: 0;
+    font-weight: bold;
+}
+
+#fregister p:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 50px;
+    border-radius: 5px 0 0 5px;
+    background-color: transparent;
+}
+
+#sns_register h2 {
+    float: left;
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    height: 56px;
+    line-height: 56px;
+    padding: 0 20px;
+    font-size: 14px !important;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#sns_register .sns-icon {
+    border-radius: 3em !important;
+}
+
+#fregister h2 {
+    text-align: left;
+    padding: 20px;
+    border-bottom: 1px #eee solid;
+    font-size: 14px;
+    font-weight: 900;
+    margin-bottom: 0;
+    margin-top: 0;
+    /*    background-color: #fcfcfc;*/
+    background-color: #fff;
+}
+
+#fregister_private table td {
+    border: 1px solid #e7e9ec;
+    padding: 10px;
+    border-top: 0;
+    font-size: 13px;
+}
+
+#fregister_chkall {
+    position: relative;
+    text-align: center;
+    background: #fff;
+    line-height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+
+#fregister_chkall label {
+    font-size:15px;
+    margin-top: 4px;
+    color: #000;
+    font-weight:400
+}
+
+.register .btn_confirm .btn_submit,
+.register .btn_confirm .btn_close {
+    float: left;
+    height: 50px !important;
+    width: 49.5%;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 0;
+}
+
+.register .btn_confirm .btn_submit {
+    border: 0;
+    background: #2f3d5d;
+    border: 1px #2f3d5d solid;
+    color: #fff;
+    cursor: pointer;
+    line-height: 32px !important;
+    transition: 0.6s;
+    font-size:16px;
+    font-weight:500;
+}
+
+.register .btn_confirm .btn_submit:hover {
+    border-color: #465d93;
+    background-color: #465d93;
+}
+#fregister_private table th {
+    font-size:14px;
+}
+/* 회원가입 창 */
+
+.register_form_inner {
+    border: 0;
+}
+
+#register_form h2 {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    background-color: #8492b3;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-family: 'Noto Sans KR';
+    font-weight: 700;
+}
+#register_form h2:before {
+    font-family: FontAwesome;
+        content: "\f058";
+    padding-right: 8px;
+}
+.register_form_inner ul {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.register_form_inner label {
+    display: none;
+}
+
+li.chk_box label {
+    display: block;
+}
+
+.register_form_inner ul .frm_input {
+    border: 0;
+    box-shadow: none;
+    background-color: #f4f4f4;
+    border-radius: 0;
+    height: 52px;
+    line-height: 52px;
+    padding-left: 15px;
+    font-size:15px;
+}
+
+.register_form_inner .chk_li {
+    padding-left: 2px;
+    font-size:15px;
+}
+
+@media(min-width:991px) {
+    .register {
+        width: 900px;
+    }
+}

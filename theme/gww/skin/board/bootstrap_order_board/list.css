@@ -1,0 +1,158 @@
+#bo_list {
+    position: relative;
+    margin-bottom: 20px
+}
+
+#bo_list:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    content: ""
+}
+
+
+#bo_list .td_num2 {
+    width: 120px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#bo_list .td_num {
+    width: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#bo_list .td_date {
+    width: 150px;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+#bo_list .td_datetime {
+    width: 150px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#bo_list .td_name {
+    width: 150px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+#bo_list .td_name .tbl_head01 td {
+    color: #666;
+    padding: 10px 5px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    line-height: 1.4em;
+    height: 60px;
+    word-break: break-all;
+}
+
+
+.tbl_head01 td {
+    line-height: 1.9em;
+    padding: 26px 5px !important;
+}
+
+.tbl_head01 td a {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.tbl_head01 td a:hover {
+    text-decoration: none;
+}
+
+#bo_list tbody .even td {
+    background: #fff;
+}
+
+.bo_notice td {
+    background: #fff !important;
+    border-bottom: 1px solid #ddd;
+}
+
+.bo_notice td a {
+    font-weight: 600;
+}
+
+.bo_notice .notice_icon {
+    display: inline-block;
+    line-height: 25px;
+    border-radius: 0;
+    font-weight: bold;
+    color: #000;
+    font-size: 13px;
+    border: 1px #eee solid;
+    background-color: #f3f3f3;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+#bo_list tbody tr:hover {
+    border-left: 1px solid #000;
+    background-color: #fff;
+}
+
+.bo_cate_link {
+    float: left;
+    display: inline-block;
+    margin-right: 10px;
+    background: #f7f7f7;
+    border: 1px solid #eeeeee;
+    color: #000;
+    font-weight: normal !important;
+    height: 24px;
+    line-height: 0;
+    padding: 12px 8px;
+    border-radius: 0;
+    font-size: 13px !important;
+}
+
+
+
+#bo_list .cnt_cmt {
+    background: #f0f0f0;
+    color: #959595;
+    font-size: 11px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 5px;
+    border-radius: 3em;
+    vertical-align: middle;
+}
+
+#bo_btn_top .btn {
+    font-size: 12px;
+}
+
+@media(max-width:991px) {
+    .tbl_head01 td {
+        padding: 0 5px !important;
+    }
+    #bo_list .td_name {
+        width: 120px;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    #bo_list .td_num2 {
+        width: 50px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .tbl_head01 td a {
+        font-weight: 500;
+        font-size: 14px;
+    }
+}

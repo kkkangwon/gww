@@ -1,0 +1,153 @@
+    #fotorama-wiz {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .fotorama__nav {
+   
+        padding-top: 5px;
+        padding-bottom: 20px;
+        background-color: #fff;
+    }
+    .fotorama__img {}
+
+    .text img {
+        display: none;
+    }
+
+    #fotorama-wiz {
+        border: 1px #e1e1e1 solid;
+        padding: 20px 35px 35px;
+        margin-bottom: 50px;
+    }
+
+    .fotorama_wrap .title_wrap {
+        text-align: center;
+        font-size:19px;
+        padding-left: 180px;
+        padding-right: 180px;
+        color: #353535;
+        margin-bottom: 50px;
+    }
+    .fotorama_wrap .title_wrap h1 {
+        font-size:54px;
+        line-height: 64px;
+        margin-bottom: 40px;
+        
+        color: #000;
+        font-weight:900;
+    }
+    .fotorama_wrap .content {
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+
+    .fotorama_wrap .content h1 {
+        font-size: 38px;
+        font-weight: 900;
+        padding-bottom: 12px;
+        color: #000;
+    }
+
+    .fotorama_wrap .content .text {
+        font-size: 16px;
+        line-height: 25px;
+        color: #808080;
+        font-weight: 400;
+
+    }
+
+    section.spac-table {
+        /*            margin-top: 20px;*/
+    }
+
+    section.spac-table {
+        margin-top: 30px;
+    }
+    section.spac-table table {
+        border-top: 2px #000 solid;
+        border-bottom: 1px #ddd solid;
+    }
+    section.spac-table table th {
+        background-color: #f7f7f7;
+        font-size: 16px;
+        font-weight:600;
+        color: #000;
+    }
+
+    section.spac-table table td {
+        padding-left: 22px;
+        font-size: 16px;
+    }
+
+    section.spac-table table caption {
+        /*            text-align: center;*/
+        font-size: 16px;
+        color: #000;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+
+    @media screen and (max-width: 991px) {
+        .fotorama__nav {
+   
+            padding-top: 5px;
+            padding-bottom: 15px;
+            background-color: #fff;
+        }
+        #fotorama-wiz {
+            border: 1px #e1e1e1 solid;
+            padding: 12px 35px 15px;
+            margin-bottom: 50px;
+        }
+    
+        .fotorama_wrap .title_wrap {
+            text-align: center;
+            font-size:14px;
+            padding-left: 0;
+            padding-right: 0;
+            color: #353535;
+            margin-bottom: 30px;
+        }
+        .fotorama_wrap .title_wrap h1 {
+            font-size:28px;
+            line-height: 34px;
+            margin-bottom: 15px;
+            
+            color: #000;
+            font-weight:900;
+        }
+        
+        section.spac-table {
+            margin-top: 15px;
+        }
+        .fotorama_wrap .content {
+            padding-left: 0;
+            padding-top: 10px;
+        }
+
+        .fotorama_wrap .content h1 {
+
+            font-size: 24px;
+            font-weight: 900;
+            padding-bottom: 0;
+            
+        }
+
+        .fotorama_wrap .content .text {
+            font-size: 14px;
+            line-height: 18px;
+            color: #616161;
+
+        }
+        section.spac-table table th {
+            background-color: #f7f7f7;
+            font-size: 13px;
+            font-weight:600;
+            color: #000;
+        }
+    
+        section.spac-table table td {
+            padding-left: 19px;
+            font-size: 13px;
+        }
+    }

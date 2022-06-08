@@ -1,0 +1,57 @@
+@media(max-width:768px) {
+    #bo_list .td_name {
+        width: 80px;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 13px;
+    }
+    #bo_list .td_num2 {
+        width: 50px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .tbl_head01 td a {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    /*    뷰 페이지 */
+    #bo_v_title .bo_v_tit {
+        border-top: 2px #000 solid;
+        border-bottom: 1px #e0e0e0 solid;
+        background-color: #fcfcfc;
+        display: block;
+        font-size: 16px;
+        font-weight: 900;
+        padding-left: 10px;
+        margin: 5px 0 0;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        word-break: break-all;
+    }
+    #bo_v_info .profile_info {
+        margin: 10px 0 10px;
+        display: inline-block;
+        float: left;
+        padding-left: 10px;
+    }
+    #bo_v_info .profile_info .pf_img img {
+        border-radius: 50%;
+        width: 42px;
+        height: 42px;
+        margin-right: 6px;
+    }
+    #bo_v_info .if_date {
+        display: none;
+    }
+    #bo_vc article .pf_img img {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: none;
+    }
+    #bo_vc .cmt_contents {
+        line-height: 1.8em;
+        padding: 0;
+    }
+    
+}
