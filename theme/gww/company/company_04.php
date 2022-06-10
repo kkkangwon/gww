@@ -10,53 +10,59 @@ include_once('../../../_head.php');
 
 <section class="company company_04">
     <h3 class="company_h3">위즈테마 홈페이지를 찾아주신 여러분들을 진심으로 환영합니다.</h3>
-    <div id="map" class='embed-container'>
-        <p class="sky">위즈테마 </p>
-        <div id="daumRoughmapContainer1616633312639" class="root_daum_roughmap root_daum_roughmap_landing"></div>
-        <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
-        <script charset="UTF-8">
-        new daum.roughmap.Lander({
-            "timestamp": "1616633312639",
-            "key": "25zst",
-            // "mapWidth": "1140",
-            "mapHeight": "520"
-        }).render();
-        </script>
-    </div>
-    <!-- 탭 -->
-    <div class="table_wrap">
-        <div class="title">
-        <h2> 위즈테마 <span>WIZTHEME</span>
-                <p class="pull-right"><a href="https://www.google.co.kr/maps/place/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84+%ED%8F%AC%ED%95%AD%EC%8B%9C+%EB%82%A8%EA%B5%AC+%EB%8C%80%EC%9D%B4%EB%8F%99+%ED%9D%AC%EB%A7%9D%EB%8C%80%EB%A1%9C659%EB%B2%88%EA%B8%B8+51/@36.0149198,129.3461422,17z/data=!3m1!4b1!4m5!3m4!1s0x356701bc4f76e8b3:0x16ad43001fd8b4e1!8m2!3d36.0149155!4d129.3483309?hl=ko" class="btn btn-pack data-border-radius data-border" target="_blank"><i class="fa fa-plus-circle"></i> 크게보기 </a></p>
-            </h2>
-        </div>
-        <table class="table table-hover data-font-size" data-font-size="16px">
-            
-            <thead></thead>
-            <tbody>
-
-                <tr>
-                    <th>주소</th>
-                    <td>본 사 : 서울시 금천구 가마산로 96 대륭테크노8차 000호 </td>
-                    <th>전화</th>
-                    <td>02-2698-5355</td>
-                </tr>
-                <tr>
-                    <th>버스</th>
-                    <td><span class="badge blue">간선</span>204(범물동 - 금호지구)<br>
-                        814(대구대 - 범물동)<br>
-                        수성1-1 (범물동 - 범물동)<br>
-                        수성3-1 (동호동 - 동호동)<br>
-                        <span class="badge blue">간선</span>급행3(범물동 - 동명교통) </td>
-                    <th>지하철</th>
-                    <td>가산디지털단지역 7번출구 앞</td>
-                </tr>
-                <!-- <tr>
-                    <th>sd</th>
-                    <td colspan="3">2</td>
-                </tr> -->
-            </tbody>
-        </table>
-    </div>
+    <div class="vision_wrap">
+		<div class="vision_inner">
+			<h4>MISSION</h4>
+			<p>4차 산업혁명시대에 적합한 비즈니스 모델을 통한 상생구조 차세대 복지시스템 구축</p>
+		</div>
+		<div class="vision_inner">
+			<h4>VISION</h4>
+			<p>공공긱관에 최적화된 IT솔루션을 제공하는 유일한 콘소시엄형 장애인표준사업장</p>
+		</div>
+		<div class="vision_inner">
+			<h4>VALUE</h4>
+			<p>고객중심 혁신주도 가치성장 상생협력</p>
+		</div>
+	</div>
+	<div class="slogan_inner">
+		<h4>Slogan</h4>
+		<h5>Welfare Innovator & Good Business Parter</h5>
+		<p>대한복지진흥원은 4차산업혁명시대를 주도하는 메타버스, IT, 영상 미디어 등을 이용한 사업을 전개합니다.<br>장애인에게는 단순하고 용의 기회를 넘어 자아현실의 기회를, 공공기관에는 전문성을 갖춘 최적의 솔루션을 제공합니다.<br>유일한 전국 규모 컨소시엄형 장애인 표준사업장으로써, 새로운 복지의 방향성을 제시합니다.</p>
+	</div>
+	<div class="about_text"><!-- 기관소개 공간 -->
+		<div class="row">
+			<div class="col-md-4"><!-- 글로벌 뭐라고 나오던 왼쪽 큰 텍스트 -->
+				<h1><span>Organization Direction</span></h1>
+			</div>
+			<div class="col-md-8">
+				<div class="direction_wrap">
+					<div class="direction_inner">
+						<h5>Welfare System 1.0</h5>
+						<p>사회구호형</P>
+						<p>설명 : 6.25전쟁 이후, 기초적 의식주 지원</P>
+						<p>지원방식 : 긴급구호와 원조</P>
+					</div>
+					<div class="direction_inner">
+						<h5>Welfare System 2.0</h5>
+						<p>공공부조형</P>
+						<p>설명 : 산업화 이후, 선별적 사회보장지원</P>
+						<p>지원방식 : 시설무료제공 및 경제적 직접지원</P>
+					</div>
+					<div class="direction_inner">
+						<h5>Welfare System 3.0</h5>
+						<p>생활보장형</P>
+						<p>설명 : 현재, 경재적 자립 지원</P>
+						<p>지원방식 : 개인을 고려하지 않은 시혜적 교육지원</P>
+					</div>
+					<div class="direction_inner">
+						<h5>Welfare System 4.0</h5>
+						<p>자아실현형</P>
+						<p>설명 : 미래, '자아실현' 환경지원</P>
+						<p>지원방식 : 개인의 복지와 성장에 맞춘 참여기회 지원</P>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 <?php include_once('../../../_tail.php');?>

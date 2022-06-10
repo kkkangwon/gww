@@ -128,7 +128,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/list.css">', 0)
 
                             </a>
                                 <div class="data_box">
-                                    <div class="date"><i class="far fa-calendar-check"></i> <?php echo $list[$i]['wr_datetime']; ?></div> 
+                                    <div class="date"><i class="far fa-calendar-check"></i> <?php echo $list[$i]['wr_2']; ?></div> 
                                     <div class="hit pull-right"><i class="far fa-comment-dots"></i> <span><?php echo $list[$i]['wr_hit']; ?></span> </div>  
                                 </div>
                         </div>

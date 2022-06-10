@@ -47,29 +47,25 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/view.css">', 0)
                           </div>
                       </div>
                       <p class="text"> 
-                          <?php echo cut_str(strip_tags($view[wr_content]),200,'...')?> 
+                          <?php echo $view['wr_4'];?>
                       </p>
                       <section class="spac-table">
                            <div class="table_wrap">
                                 <table class="table table-hover ">
-                                    <caption> <i class="fas fa-chevron-circle-down"></i> Specification</caption>
+                                    <caption> <i class="fas fa-chevron-circle-down"></i> Information</caption>
                                     <thead></thead>
                                     <tbody>
                                         <tr>
-                                            <th>· 재질</th>
+                                            <th>· 발주처</th>
                                             <td><?php echo $view['wr_1'];?></td>
                                         </tr>
                                         <tr>
-                                            <th>· 규격</th>
+                                            <th>· 프로젝트기간</th>
                                             <td><?php echo $view['wr_2'];?> </td>
                                         </tr>
                                         <tr>
-                                            <th>· 제품설명</th>
+                                            <th>· 플랫폼</th>
                                             <td><?php echo $view['wr_3'];?></td>
-                                        </tr>
-                                        <tr>
-                                            <th>· 제품특징</th>
-                                            <td><?php echo $view['wr_4'];?></td>
                                         </tr>
                                     </tbody>
                                 </table>

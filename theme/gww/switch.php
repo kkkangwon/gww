@@ -1,9 +1,9 @@
 <?php
  switch ($bo_table) {      
-    case "product_01":
+    case "notice":
 		$pageNum = "1";
         $subNum = "0";
-        $depth1 = "제품소개";
+        $depth1 = "r";
         $depth2 = "{$board['bo_subject']}"; 
 	break;
     case "product_02":
@@ -47,7 +47,7 @@
      case "notice":
 		$pageNum = "3";
         $subNum = "0";
-        $depth1 = "고객센터";
+        $depth1 = "공지사항";
         $depth2 = "{$board['bo_subject']}"; 
 	break;
      case "qa":

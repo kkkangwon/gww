@@ -82,14 +82,14 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/write.css">', 0
 	        <label for="wr_homepage" class="sound_only">홈페이지</label>
 	        <input type="text" name="wr_homepage" value="<?php echo $homepage ?>" id="wr_homepage" class="frm_input half_input" size="50" placeholder="홈페이지">
 	    <?php } ?>
-        <label for="wr_1" class="sound_only">옵션1</label>
-        <input type="text" name="wr_1" value="<?php echo $write['wr_1'];?>" id="wr_1" class="frm_input half_input"  placeholder="옵션1">
-        <label for="wr_2" class="sound_only">옵션2</label>
-        <input type="text" name="wr_2" value="<?php echo $write['wr_2'];?>" id="wr_2" class="frm_input half_input"  placeholder="옵션2"> 
-        <label for="wr_3" class="sound_only">옵션3</label>
-        <input type="text" name="wr_3" value="<?php echo $write['wr_3'];?>" id="wr_3" class="frm_input half_input"  placeholder="옵션3">
-        <label for="wr_4" class="sound_only">옵션4</label>
-        <input type="text" name="wr_4" value="<?php echo $write['wr_4'];?>" id="wr_4" class="frm_input half_input"  placeholder="옵션4">
+        <label for="wr_1" class="sound_only">발주처</label>
+        <input type="text" name="wr_1" value="<?php echo $write['wr_1'];?>" id="wr_1" class="frm_input half_input"  placeholder="발주처">
+        <label for="wr_2" class="sound_only">프로젝트기간</label>
+        <input type="text" name="wr_2" value="<?php echo $write['wr_2'];?>" id="wr_2" class="frm_input half_input"  placeholder="프로젝트 기간"> 
+        <label for="wr_3" class="sound_only">플랫폼</label>
+        <input type="text" name="wr_3" value="<?php echo $write['wr_3'];?>" id="wr_3" class="frm_input half_input"  placeholder="플랫폼">
+        <label for="wr_4" class="sound_only">간단한 설명</label>
+        <input type="text" name="wr_4" value="<?php echo $write['wr_4'];?>" id="wr_4" class="frm_input half_input"  placeholder="간단한 설명">
 	</div>
 	
     <?php if ($option) { ?>

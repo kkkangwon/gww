@@ -123,7 +123,7 @@ jQuery(document).ready(function (e) {
 /* 백그라운드 이미지 */
 function background() {
     //var img=$('.image'); /* 클라스를 줄때 */
-    $(".data-image").css('background-image', function () {
+    $(".data-image2").css('background-image', function () {
         var bg = ('url(' + $(this).data('background') + ')');
         return bg;
     });

@@ -181,7 +181,7 @@ a {
 .header h1 a {
     overflow: hidden;
     display: block;
-    height: 19px;
+    height: 32px;
     background: url(../../img/common/logo.png) 0 0 no-repeat;
     text-indent: -9999px;
 
@@ -418,7 +418,7 @@ a {
 .header.sticky h1 a {
     overflow: hidden;
     display: block;
-    height: 19px;
+    height: 32px;
     background: url(../../img/common/logo.png) 0 100% no-repeat;
     text-indent: -9999px;
     
@@ -1385,10 +1385,11 @@ a {
 
 #sub_content .page-header h1 {
     font-size: 56px;
-    font-weight: 900;
+	font-family: 'Noto Sans KR', '맑은 고딕', 'Nanum Gothic', 'Malgun Gothic', '돋움', 'Ubuntu', dotum, sans-serif;
+    font-weight: 700;
     color: #000;
-    font-family: 'NanumSquare';
     margin-bottom: 30px;
+	letter-spacing:-1px;
 
 }
 

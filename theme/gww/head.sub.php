@@ -93,6 +93,7 @@ echo '<link rel="stylesheet" href="'.run_replace('head_css_url', G5_THEME_CSS_UR
     
 <link rel="stylesheet" href="<?php echo G5_THEME_URL?>/wzd_lib/css/responsive.css">
 <link rel="stylesheet" href="<?php echo G5_THEME_URL?>/wzd_lib/plugin/swiper/dist/css/ytp.css">
+<link rel="stylesheet" href="<?php echo G5_THEME_URL?>/wzd_lib/css/jason.css">
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
 

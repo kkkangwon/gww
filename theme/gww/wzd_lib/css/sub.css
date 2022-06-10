@@ -1,3 +1,4 @@
+strong {font-wieght:600;}
 /* 인사말 */
 
 section.company h3.company_h3 {
@@ -18,7 +19,6 @@ section.company.company_01 .ceo-box {
 section.company.company_01 .ceo-box .text {
     font-size: 34px;
     line-height: 46px;
-    font-family: 'NanumSquare';
     margin-left: 161px;
     color: #000;
     margin-top: 105px;
@@ -26,13 +26,12 @@ section.company.company_01 .ceo-box .text {
 }
 
 section.company.company_01 .ceo-box .text p {
-    font-size: 19px;
+    font-size: 18px;
     margin-top: 20px;
     font-weight: 600;
     color: #333333;
     position: relative;
     display: inline-block;
-    font-family: 'NanumSquare';
 }
 
 section.company.company_01 .ceo-box .text p::before {
@@ -66,7 +65,7 @@ section.company .about_text h1 span::before {
     z-index: -1;
     width: 100%;
     height: 12px;
-    background: rgba(255, 234, 93, 1);
+    background: rgba(248, 189, 49, 1);
     content: '';
     margin-top: 52px;
 }
@@ -289,7 +288,9 @@ section.company_04 .table_wrap .table span.blue {
 
 @media(min-width:992px) {
     section.company .about_text .text {
-        margin-left: 70px;
+        margin-left: 60px;
+		letter-spacing:-0.5px;
+		font-size:20px
     }
 
     section.company.company_02 .table_wrap .table tbody th,

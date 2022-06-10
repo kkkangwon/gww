@@ -19,11 +19,10 @@ include_once(G5_THEME_PATH.'/head.php');
 <div id="index_wrap">
     <section class="section01">
         <div class="text_wrap animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
-            <span>Lorem ipsum tempor </span>
+            <span>BUSINESS AREA</span>
             <div class="text">
-                An architectural<br>
-                company based in<br>
-                Poland</div>
+               더나은 미래를 <br>
+               만들어가고 있어요</div>
         </div>
         <div class="box_wrap">
             <div class="box box01 animate" data-animate="fadeInUp" data-duration="1.3s" data-delay="0.2s">
@@ -33,7 +32,7 @@ include_once(G5_THEME_PATH.'/head.php');
                     </a>
                 </div>
                 <div class="text">
-                    <span>COMPANY</span>
+                    <span>메타버스</span>
                 </div>
             </div>
             <div class="box box02 animate" data-animate="fadeInUp" data-duration="1.3s" data-delay="0.3s">
@@ -43,7 +42,7 @@ include_once(G5_THEME_PATH.'/head.php');
                     </a>
                 </div>
                 <div class="text">
-                    <span>BUSINESS</span>
+                    <span>공공IT</span>
                 </div>
             </div>
             <div class="box box03 animate" data-animate="fadeInUp" data-duration="1.3s" data-delay="0.4s">
@@ -53,12 +52,12 @@ include_once(G5_THEME_PATH.'/head.php');
                     </a>
                 </div>
                 <div class="text">
-                    <span> LOCATION</span>
+                    <span> 영상미디어</span>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section02 parallax_wrap js-parallax data-image animate" data-background="<?php echo G5_THEME_URL?>/img/main/video_bg.jpg" data-animate="fadeIn" data-duration="1.2s" data-delay="0.1s">
+    <section class="section02 parallax_wrap js-parallax data-image2 animate" data-background="<?php echo G5_THEME_URL?>/img/main/video_bg.jpg" data-animate="fadeIn" data-duration="1.2s" data-delay="0.1s">
         <div class="container">
             <div class="box_wrap">
                 <div class="box text_wrap">

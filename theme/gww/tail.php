@@ -16,69 +16,155 @@ if(G5_COMMUNITY_USE === false) {
 </div> <!-- sub_content end -->
 <?php } ?>
 <footer class="<?php if(!$index){ echo "sub"; }?>">
-    <div class="footer-menu">
-        <div class="container">
-            <ul class="list-inline breadcrumb">
-                <li class="hidden-sm hidden-xs"><a href="<?php echo G5_URL?>">처음으로</a></li>
-                <li><a href="<?php echo G5_THEME_URL?>/company/company_02.php">회사소개</a></li>
-                <li><a href="#popup1" class="blue">개인정보호정책</a></li>
-                <li><a href="#popup2">이용약관</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="container">
-        <p class="logo"><img src="<?php echo G5_THEME_URL?>/img/main/logo-sub.png"></p>
-        <address>
-            <strong>위즈테마</strong>
-            주소 : 서울시 금천구 가마산로 96 대륭테크노8차 000호 <strong>대표 : </strong> 나대표
-            <strong>전화번호</strong> : 02-2698-5355 <strong>팩스</strong> : 02-2698-5355
-            <p>Copyright &copy; 2021 <strong><?php echo $config['cf_title']; ?></strong> www.<?php echo $_SERVER['HTTP_HOST']?> All Rights Reserved.</p>
-        </address>
-    </div>
+	
+	<!-- 하단 중 상단 시작-->
+	<div class="footer">
+		<div class="inner">
+			<div class="left-group">
+				<h2 class="logo"><a href="/"><span class="blind">대한복지진흥원</span></a></h2>
+				<span class="channel">대한복지진흥원 채널</span>
+				<ul class="list-sns">
+					<li><a href="https://www.instagram.com/" target="_blank" title="새창 열림"><span class="blind">Instagram</span></a></li>
+					<li class="facebook"><a href="https://www.facebook.com/" target="_blank" title="새창 열림"><span class="blind">Facebook</span></a></li>
+					<li class="youtube"><a href="https://www.youtube.com/" target="_blank" title="새창 열림"><span class="blind">Youtube</span></a></li>
+				</ul>
+			</div>
+			<ul class="list-sitemap">
+				<li>
+					<em>진흥원소개</em>
+					<a href="#" class="link">진흥원소개</a>
+					<ul>
+						<li><a href="<?php echo G5_THEME_URL?>/company/company_01.php">인사말</a></li>
+						<li><a href="<?php echo G5_THEME_URL?>/company/company_02.php">기관소개</a></li>
+						<li><a href="<?php echo G5_THEME_URL?>/company/company_03.php">CI소개</a></li>
+						<li><a href="<?php echo G5_THEME_URL?>/company/company_04.php">비전ㆍ미션ㆍ경영이념</a></li>
+						<li><a href="<?php echo G5_THEME_URL?>/company/company_05.php">조직도</a></li>
+						<li><a href="<?php echo G5_THEME_URL?>/company/company_06.php">오시는 길</a></li>
+					</ul>
+				</li>
+				<li>
+
+					<em>사업소개</em>
+					<a href="<?php echo G5_THEME_URL?>/company/business_01.php" class="link">사업소개</a>
+					<ul>
+						<li><a href="<?php echo G5_THEME_URL?>/company/business_01.php">메타버스 사업</a></li>
+						<li><a href="<?php echo G5_THEME_URL?>/company/business_02.php">공공IT 사업</a></li>
+						<li><a href="<?php echo G5_THEME_URL?>/company/business_03.php">영상미디어 사업</a></li>
+						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=portfolio">포트폴리오</a></li>
+					</ul>
+				</li>
+				<li>
+					<em>알림마당</em>
+					<a href="<?php echo G5_URL?>/bbs/board.php?bo_table=notice" class="link">알림마당</a>
+					<ul>
+						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=notice">공지사항</a></li>
+						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=recruitment">채용정보</a></li>
+						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=reference">자료실</a></li>
+						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=management">경영고시</a></li>
+						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=contribute">사회공헌활동</a></li>
+					</ul>
+				</li>
+				<li>
+					<em>고객참여</em>
+					<a href="<?php echo G5_URL?>/bbs/board.php?bo_table=qa" class="link">고객참여</a>
+					<ul>
+						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=qa">자주묻는 질문</a></li>
+						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=cs">고객의 소리</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="footer-group">
+				<!--ul class="list">
+					<li><a href="https://villiv.co.kr/main" target="_blank" title="새창 열림">복지TV강원방송</a></li>
+					<li><a href="https://www.jayucc.co.kr" target="_blank" title="새창 열림">원주시</a></li>
+					<li><a href="https://www.trinityclub.co.kr:446/main.asp" target="_blank" title="새창 열림">강원도</a></li>
+					<li><a href="https://www.aquafield-ssg.co.kr" target="_blank" title="새창 열림">추가</a></li>
+				</ul-->
+				<ul class="list">
+					<li><a href="#">개인정보처리방침</a></li>
+					<li><a href="#">이용약관</a></li>
+					<li><a href="#">이메일무단수집거부</a></li>
+				</ul>
+				<!--div class="family-site active">
+					<button type="button">Family Site</button>
+					<ul>
+						<li><a href="http://www.gww.co.kr/" target="_blank" title="새창 열림">WBC복지TV강원방송</a></li>
+						<li><a href="https://www.wonju.go.kr/" target="_blank" title="새창 열림">원주시청</a></li>
+					</ul-->
+				</div>
+				<address>
+					<strong>대한복지진흥원</strong><br />
+					강원도 원주시 건강로 21-1 서영에비뉴파크 2차, 506호(반곡동) 
+					<strong>전화번호</strong> : 080-800-9000 <strong>팩스</strong> : 02-2698-5355
+				</address>
+				<p class="copyright">© 2022 Korea Welfare Organization All Rights Reserved</p>
+			</div>
+		</div>
+		<!-- 하단 중 상단 끝-->
+		<div class="mobile_jason">
+			<div class="footer-menu">
+				<div class="container">
+					<ul class="list-inline breadcrumb">
+						<li class="hidden-sm hidden-xs"><a href="<?php echo G5_URL?>">처음으로</a></li>
+						<li><a href="<?php echo G5_THEME_URL?>/company/company_02.php">진흥원소개</a></li>
+						<li><a href="#popup1" class="blue">개인정보호정책</a></li>
+						<li><a href="#popup2">이용약관</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="container">
+				<p class="logo"><img src="<?php echo G5_THEME_URL?>/img/main/logo-sub.png"></p>
+				<address>
+					<strong>대한복지진흥원</strong>
+					주소 : 강원도 원주시 건강로 21-1 서영에비뉴파크 2차, 506호(반곡동) <strong>대표 : </strong> 나대표
+					<strong>전화번호</strong> : 080-800-9000 <strong>팩스</strong> : 02-2698-5355
+					<p>Copyright &copy; 2022 <strong>Korea Welfare Organization</strong>  All Rights Reserved.</p>
+				</address>
+			</div>
+		</div>
+	</div>
 </footer>
 <div class="sidebar-offcanvas" id="sidebar">
     <div class="js-offcanvas">
         <div class="title_wrap">
-        <h3>WIZTHEME<?php //echo $config['cf_title']; ?></h3><p class="close-btn js-close-btn"><i class="fas fa-times "></i></p>
+        <h3><img src=""></h3><p class="close-btn js-close-btn"><i class="fas fa-times "></i></p>
         </div>
         <div off-canvas="slidebar-1 left reveal">
             <ul class="sidebar-menu">
                 <li>
-                    <a href="#">  <span>회사소개</span> <i class="fa fa-angle-right pull-right"></i> </a>
+                    <a href="#">  <span>진흥원 소개</span> <i class="fa fa-angle-right pull-right"></i> </a>
                     <ul class="sidebar-submenu"> 
-                        <li><a href="<?php echo G5_THEME_URL?>/company/company_01.php">CEO인사말</a></li>
-                        <li><a href="<?php echo G5_THEME_URL?>/company/company_02.php">회사소개</a> </li>
-                        <li><a href="<?php echo G5_THEME_URL?>/company/company_03.php">회사연혁</a></li>
-                        <li><a href="<?php echo G5_THEME_URL?>/company/company_04.php">찾아오시는 길</a></li>
+                        <li><a href="<?php echo G5_THEME_URL?>/company/company_01.php">인사말</a></li>
+						<li><a href="<?php echo G5_THEME_URL?>/company/company_02.php">기관소개</a> </li>
+						<li><a href="<?php echo G5_THEME_URL?>/company/company_03.php">CI소개</a></li>
+						<li><a href="<?php echo G5_THEME_URL?>/company/company_04.php">비전·미션·경영이념</a></li>
+						<li><a href="<?php echo G5_THEME_URL?>/company/company_05.php">조직도</a></li>
+						<li><a href="<?php echo G5_THEME_URL?>/company/company_06.php">오시는 길</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#"> <span>제품소개</span> <i class="fa fa-angle-right pull-right"></i> </a>
+                    <a href="#"> <span>사업소개</span> <i class="fa fa-angle-right pull-right"></i> </a>
                     <ul class="sidebar-submenu">
-                        <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=product_01">뷰슬라이드01</a></li>
-                        <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=product_02">뷰슬라이드02</a></li>
-                        <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=product_03">뷰슬라이드03</a></li>
-                        <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=product_04">일반형 웹진형01</a></li>
-                        <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=product_05">일반형 갤러리형01</a></li>
-                        <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=product_06">일반형 갤러리형 새창01</a></li>
+                        <li><a href="<?php echo G5_THEME_URL?>/company/business_01.php">메타버스 사업</a></li>
+						<li><a href="<?php echo G5_THEME_URL?>/company/business_02.php">공공IT 사업</a> </li>
+						<li><a href="<?php echo G5_THEME_URL?>/company/business_03.php">영상미디어 사업</a></li>
+						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=portfolio">포트폴리오</a></li>
                     </ul>
                 </li> 
                 <li>
-                    <a href="#"><span>인재채용</span> <i class="fa fa-angle-right pull-right"></i> </a>
+                    <a href="#"><span>알림마당</span> <i class="fa fa-angle-right pull-right"></i> </a>
                     <ul class="sidebar-submenu">
-                        <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=free">인재채용</a></li>
-                    </ul>
-                </li>
-                <li><a href="<?php echo G5_URL?>/bbs/write.php?bo_table=online"> <span>고객센터</span> <i class="fa fa-angle-right pull-right"></i></a>
-                   <ul class="sidebar-submenu">
                         <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=notice">공지사항</a></li>
-                        <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=qa">자주묻는 질문</a></li>
-                        <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=gallery">갤러리</a></li>
+						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=notice">채용정보</a></li>
+						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=notice">자료실</a></li>
+						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=notice">경영고시</a></li>
+						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=notice">사회공헌활동</a></li>
                     </ul>
                 </li>
-                <li><a href="<?php echo G5_URL?>/bbs/write.php?bo_table=online"> <span>온라인 문의</span> <i class="fa fa-angle-right pull-right"></i></a>
+                <li><a href="<?php echo G5_URL?>/bbs/write.php?bo_table=online"> <span>고객 참여</span> <i class="fa fa-angle-right pull-right"></i></a>
                    <ul class="sidebar-submenu">
-                       <li><a href="<?php echo G5_URL?>/bbs/write.php?bo_table=online">온라인문의</a></li>
+                        <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=qa">자주묻는 질문</a></li>
+                        <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=cs">고객의 소리</a></li>
                     </ul>
                 </li>
             </ul> 
@@ -92,12 +178,12 @@ if(G5_COMMUNITY_USE === false) {
                 
               <a href="<?php echo G5_URL?>/bbs/write.php?bo_table=online" class="btn btn btn-pack">FAQ</a>
             </div> 
-            <div class="etc_wrap">
+            <!--<div class="etc_wrap">
                 <div class="cont">
                     <a href="<?php echo G5_THEME_URL?>" class="active">KOR</a> | <a href="<?php echo G5_THEME_URL?>">ENG</a>
                 </div>
                 <div class="copy">copyright&copy; <?php echo date("Y"); ?> <?php echo $_SERVER['HTTP_HOST']?></div>
-            </div>
+            </div>-->
             
         </div>
         
@@ -241,7 +327,6 @@ if ($config['cf_analytics']) {
 ?>
 
 <!-- } 하단 끝 -->
-
 <script>
 $(function() {
     // 폰트 리사이즈 쿠키있으면 실행

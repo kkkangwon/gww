@@ -40,7 +40,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                     <ul id="gnb" class="gnb">
                         <li class="menu1 depth1 li1"> <a href="<?php echo G5_THEME_URL?>/company/company_01.php">진흥원 소개</a>
                             <ul class="depth2"> 
-                                <li><a href="<?php echo G5_THEME_URL?>/company/company_01.php" >인사말</a></li>
+                                <li><a href="<?php echo G5_THEME_URL?>/company/company_01.php">인사말</a></li>
                                 <li><a href="<?php echo G5_THEME_URL?>/company/company_02.php">기관소개</a> </li>
                                 <li><a href="<?php echo G5_THEME_URL?>/company/company_03.php">CI소개</a></li>
                                 <li><a href="<?php echo G5_THEME_URL?>/company/company_04.php">비전·미션·경영이념</a></li>
@@ -49,33 +49,28 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 
                             </ul>
                         </li>
-                        <li class="menu2 depth1 li2"> <a href="<?php echo G5_URL?>/bbs/board.php?bo_table=product_01">제품소개</a>
+                        <li class="menu2 depth1 li2"> <a href="<?php echo G5_THEME_URL?>/company/business_01.php">사업소개</a>
                             <ul class="depth2">
-                                <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=product_01">뷰슬라이드01</a></li>
-                                <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=product_02">뷰슬라이드02</a></li>
-                                <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=product_03">뷰슬라이드03</a></li>
-                                <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=product_04">일반형 웹진형01</a></li>
-                                <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=product_05">일반형 갤러리형01</a></li>
-                                <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=product_06">유튜브 게시판</a></li>
+                                <li><a href="<?php echo G5_THEME_URL?>/company/business_01.php">메타버스 사업</a></li>
+								<li><a href="<?php echo G5_THEME_URL?>/company/business_02.php">공공IT 사업</a></li>
+								<li><a href="<?php echo G5_THEME_URL?>/company/business_03.php">영상미디어 사업</a></li>
+								<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=portfolio">포트폴리오</a></li>
                             </ul>
                         </li>
-                        <li class="menu2 depth1 li3"> <a href="<?php echo G5_URL?>/bbs/board.php?bo_table=free">홍보센터</a>
-                            <ul class="depth2">
-                                <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=free">인재채용</a></li>
-                                <li><a href="<?php echo G5_URL?>/bbs/content.php?co_id=company">content페이지</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu2 depth1 li4"> <a href="<?php echo G5_URL?>/bbs/board.php?bo_table=notice">고객센터</a>
+                        <li class="menu2 depth1 li3"> <a href="<?php echo G5_URL?>/bbs/board.php?bo_table=notice">알림마당</a>
                             <ul class="depth2">
                                 <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=notice">공지사항</a></li>
-                                <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=qa">자주묻는 질문</a></li>
-                                <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=gallery">갤러리</a></li>
+                                <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=recruitment">채용정보</a></li>
+								<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=reference">자료실</a></li>
+								<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=management">경영고시</a></li>
+								<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=contribute">사회공헌활동</a></li>
+								<!--<li><a href="<?php echo G5_THEME_URL?>/company/social_01.php" >인소셜미디어</a></li>-->
                             </ul>
                         </li>
-                        <li class="menu2 depth1 li5"> <a href="<?php echo G5_URL?>/bbs/write.php?bo_table=online">문의하기</a>
+                        <li class="menu2 depth1 li4"> <a href="<?php echo G5_URL?>/bbs/board.php?bo_table=qa">고객참여</a>
                             <ul class="depth2">
-                                <li><a href="<?php echo G5_URL?>/bbs/write.php?bo_table=online">온라인문의</a></li>
-                                <li><a href="http://wiztheme.co.kr/bbs/write.php?bo_table=wiz_online" target="_blank">위즈테마 문의</a></li>
+                                <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=qa">자주묻는 질문</a></li>
+                                <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=cs">고객의 소리</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -87,15 +82,41 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
         </div>
     </div>
 </div>
-<div class="top_right_etc <?php if(!$index){ echo "sub"; }else{  echo "animate"; }?>" data-animate="fadeInUp" data-duration="1s" data-delay="0.3s">
+<!--<div class="top_right_etc <?php if(!$index){ echo "sub"; }else{  echo "animate"; }?>" data-animate="fadeInUp" data-duration="1s" data-delay="0.3s">
 <span class="lang dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">KOR <i class="fa fa-angle-right"></i></span>
             <ul class="dropdown-menu dropdown-menu-right " role="menu" aria-labelledby="dropdownMenu1">
                 <li><a href="<?php echo G5_URL?>">KOR</a></li>
                 <li><a href="<?php echo G5_URL?>">ENG</a></li>
 </ul>
-</div>
+</div>-->
 
 <!-- //header -->
+<?php
+		$main_url = basename($_SERVER['PHP_SELF']);
+
+		if($main_url=="company_01.php"){$act[0] = 'active';$me_co ="10";$sub_txt ="진흥원소개";$sub_txt2 ="인사말";$h3_title="새로운 복지의 방향성, 대한복지진흥원이 제시합니다.";}
+		else if($main_url=="company_02.php"){$act[1] = 'active';$me_co ="10";$sub_txt ="진흥원소개";$sub_txt2 ="기관소개";$h3_title="새로운 복지의 방향성, 대한복지진흥원이 제시합니다.";}
+		else if($main_url=="company_03.php"){$act[2] = 'active';$me_co ="10";$sub_txt ="진흥원소개";$sub_txt2 ="CI소개";$h3_title="새로운 복지의 방향성, 대한복지진흥원이 제시합니다.";}
+		else if($main_url=="company_04.php"){$act[3] = 'active';$me_co ="10";$sub_txt ="진흥원소개";$sub_txt2 ="비전ㆍ미션ㆍ경영이념";$h3_title="새로운 복지의 방향성, 대한복지진흥원이 제시합니다.";}
+		else if($main_url=="company_05.php"){$act[4] = 'active';$me_co ="10";$sub_txt ="진흥원소개";$sub_txt2 ="조직도";$h3_title="새로운 복지의 방향성, 대한복지진흥원이 제시합니다.";}
+		else if($main_url=="company_06.php"){$act[5] = 'active';$me_co ="10";$sub_txt ="진흥원소개";$sub_txt2 ="오시는 길";$h3_title="새로운 복지의 방향성, 대한복지진흥원이 제시합니다.";}
+
+		else if($main_url=="business_01.php"){$act[0] = 'active';$me_co ="20";$sub_txt ="사업소개";$sub_txt2 ="메타버스 사업";$h3_title="대한복지진흥원은 4차산업혁명시대를 주도하는 메타버스, IT, 영상 미디어 등을 이용한 사업을 전개합니다.";}
+		else if($main_url=="business_02.php"){$act[1] = 'active';$me_co ="20";$sub_txt ="사업소개";$sub_txt2 ="공공IT 사업";$h3_title="더대한복지진흥원은 4차산업혁명시대를 주도하는 메타버스, IT, 영상 미디어 등을 이용한 사업을 전개합니다.";}
+		else if($main_url=="business_03.php"){$act[2] = 'active';$me_co ="20";$sub_txt ="사업소개";$sub_txt2 ="영상미디어 사업";$h3_title="대한복지진흥원은 4차산업혁명시대를 주도하는 메타버스, IT, 영상 미디어 등을 이용한 사업을 전개합니다.";}
+		else if($bo_table=="portfolio"){$act[3] = 'active';$me_co ="20";$sub_txt ="사업소개";$sub_txt2 ="포트폴리오";$h3_title="대한복지진흥원은 4차산업혁명시대를 주도하는 메타버스, IT, 영상 미디어 등을 이용한 사업을 전개합니다.";}
+
+		else if($bo_table=="notice"){$act[0] = 'active';$me_co ="30";$sub_txt ="알림마당";$sub_txt2 ="공지사항";$h3_title="장애인과 비장애인의 차별없는 살기좋은 세상 만들기";}
+		else if($bo_table=="recruitment"){$act[1] = 'active';$me_co ="30";$sub_txt ="알림마당";$sub_txt2 ="채용정보";$h3_title="장애인과 비장애인의 차별없는 살기좋은 세상 만들기";}
+		else if($bo_table=="reference"){$act[2] = 'active';$me_co ="30";$sub_txt ="알림마당";$sub_txt2 ="자료실";$h3_title="장애인과 비장애인의 차별없는 살기좋은 세상 만들기";}
+		else if($bo_table=="management"){$act[3] = 'active';$me_co ="30";$sub_txt ="알림마당";$sub_txt2 ="경영고시";$h3_title="장애인과 비장애인의 차별없는 살기좋은 세상 만들기";}
+		else if($bo_table=="contribute"){$act[4] = 'active';$me_co ="30";$sub_txt ="알림마당";$sub_txt2 ="사회공헌활동";$h3_title="장애인과 비장애인의 차별없는 살기좋은 세상 만들기";}
+
+		else if($bo_table=="qa"){$act[0] = 'active';$me_co ="40";$sub_txt ="고객참여";$sub_txt2 ="자주묻는 질문";$h3_title="나눔을 더하면 복이 더해지고 받는 분들은 행복함이 더해집니다.";}
+		else if($bo_table=="cs"){$act[1] = 'active';$me_co ="40";$sub_txt ="고객참여";$sub_txt2 ="고객의 소리";$h3_title="나눔을 더하면 복이 더해지고 받는 분들은 행복함이 더해집니다.";}
+
+
+	?>
 <div class="row-offcanvas row-offcanvas-right">
     <!-- mobile container 모바일 메뉴는 tail.php -->
     <?php if($index){ 
@@ -137,7 +158,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                     </div>
                 </div>
                 <div class="overlay data-overlay" data-overlay="0,0,0,0"></div>
-                <div class="swiper-img slide-1 data-image" data-background="<?php echo G5_THEME_URL?>/img/main/sdfeffesdf.jpg"></div>
+                <div class="swiper-img slide-1 data-image2" data-background="<?php echo G5_THEME_URL?>/img/main/sdfeffesdf.jpg"></div>
             </div>
             <div class="swiper-slide" id='bgPlayer1'>
                 <div id="bgPlayer" class="player" data-property="{useOnMobile:true,mobileFallbackImage:'http://theme03.wiztheme.net/slider2.jpg',videoURL:'https://www.youtube.com/watch?v=QV5EXOFcdrQ',vol:'90',stopMovieOnBlur:false,containment:'#bgPlayer1',showControls:false,startAt:0,mute:true,autoPlay:true,loop:true,opacity:1,quality:'highres',optimizeDisplay:true}"></div>
@@ -165,7 +186,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                     </div>
                 </div>
                 <div class="overlay data-overlay" data-overlay="0,0,0,0"></div>
-                <div class="swiper-img slide-1 data-image" data-background="<?php echo G5_THEME_URL?>/img/main/csdol2.jpg"></div>
+                <div class="swiper-img slide-1 data-image2" data-background="<?php echo G5_THEME_URL?>/img/main/csdol2.jpg"></div>
             </div>
             <div class="swiper-slide">
                 <div class="swiper-content">
@@ -179,7 +200,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                     </div>
                 </div>
                 <div class="overlay data-overlay" data-overlay="0,0,0,0"></div>
-                <div class="swiper-img slide-1 data-image" data-background="<?php echo G5_THEME_URL?>/img/main/asdsd2dsd.jpg"></div>
+                <div class="swiper-img slide-1 data-image2" data-background="<?php echo G5_THEME_URL?>/img/main/asdsd2dsd.jpg"></div>
             </div>
         </div>
         <!-- pagination -->
@@ -193,70 +214,47 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
     <?php }else{ ?>
     <div class="s_visual_wrap">
         <div class="slide">
-            <?php if($pageNum == 0){  //회사소개 일반페이지 일때 company.php 에서 pageNum 값이 0일때.. ?>
             <div class="content">
-                <h1 class="animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.6s" data-offset="100">CHALLENGES FOR GROWTH</h1>
-                <p class="animate" data-animate="fadeInUp" data-duration="1.2s" data-delay="0.9s" data-offset="100">일상에 필요한 모든 것들을 연결해주는 새로운 연결, 더 나은 세상 </p>
+                <h1 class="animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.6s" data-offset="100"><?=$sub_txt?></h1>
+                <p class="animate" data-animate="fadeInUp" data-duration="1.2s" data-delay="0.9s" data-offset="100"><?=$h3_title?></p>
             </div>
             <ul>
-                <li class="data-image" data-background="<?php echo G5_THEME_URL?>/img/main/asd2odasd.jpg"> </li> 
+                <li class="data-image sub_jason<?=$me_co?>"> </li> 
             </ul>
-            <?php }else if($pageNum == 1){ // 게시판형일시 switch.php 에서 pageNum 값이 2일때..  ?>
-            <div class="content">
-                <h1 class="animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.6s" data-offset="100">Vision for the future</h1>
-                <div class="line"></div>
-                <p class="animate" data-animate="fadeInUp" data-duration="1.2s" data-delay="0.9s" data-offset="100">미래를 향한 비전 </p>
-            </div>
-            <ul>
-                <li class="data-image" data-background="<?php echo G5_THEME_URL?>/img/main/asdlkjnmkwd2.jpg"> </li>
-            </ul>
-
-            <?php }else if($pageNum == 2){ // 게시판형일시 switch.php 에서 pageNum 값이 3일때..  ?>
-            <div class="content">
-                <h1 class="animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.6s" data-offset="100">Challenges for Growth</h1>
-                <div class="line"></div>
-                <p class="animate" data-animate="fadeInUp" data-duration="1.2s" data-delay="0.9s" data-offset="100">성장을 위한 도전</p>
-            </div>
-            <ul>
-                <li class="data-image" data-background="<?php echo G5_THEME_URL?>/img/main/dd2290sd.jpg"></li>
-            </ul>
-            <?php }else if($pageNum == 3){ // 게시판형일시 switch.php 에서 pageNum 값이 4일때..  ?>
-            <div class="content">
-                <h1 class="animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.6s" data-offset="100">Global IT Reader</h1>
-                <div class="line"></div>
-                <p class="animate" data-animate="fadeInUp" data-duration="1.2s" data-delay="0.9s" data-offset="100">글로벌 IT 리더</p>
-            </div>
-            <ul>
-                <li class="data-image" data-background="<?php echo G5_THEME_URL?>/img/main/asdo2220s1o.jpg"></li>
-            </ul>
-            <?php }else if($pageNum == 4){ // 게시판형일시 switch.php 에서 pageNum 값이 5일때..  ?>
-            <div class="content">
-                <h1 class="animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.6s" data-offset="100">Sustainable light value</h1>
-                <div class="line"></div>
-                <p class="animate" data-animate="fadeInUp" data-duration="1.2s" data-delay="0.9s" data-offset="100">지속가능 경형 가치</p>
-            </div>
-            <ul>
-                <li class="data-image" data-background="<?php echo G5_THEME_URL?>/img/main/asdo2220so.jpg"> </li>
-            </ul>
-            <?php }else{ ?>
-            <div class="content">
-                <h1 class="animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.6s" data-offset="100">지속가능 경형 가치</h1>
-                <p class="animate" data-animate="fadeInUp" data-duration="1.2s" data-delay="0.9s" data-offset="100">Sustainable light value </p>
-            </div>
-            <ul>
-                <li class="data-image" data-background="http://wiztheme.co.kr/img/main/svisual01.jpg"></li>
-            </ul>
-            <?php } ?>
         </div>
     </div>
     <!-- 데스크탑용 -->
     <div id="nav_center" class="breadcrumbs hidden-sm hidden-xs">
         <div class="container sub_three_nav">
-            <ul>
-                <li class="depth2">
-                    <a href="javascript:;" class="javas"></a>
-                </li>
-            </ul>
+            <!-- start-->
+					<div class="left_menu_cont<?=$me_co?>">
+					
+						<?php
+							$sql = "select * from {$g5['menu_table']} where me_use = '1' and me_code = '$me_co'";
+							$result = sql_query($sql);
+							$row=sql_fetch_array($result);
+							?>				
+						<ul>	
+						<?php
+						if($main_url=="register_form.php" or $main_url=="register.php" or $main_url=="register_result.php"){
+
+							}else{
+
+							$sql2 = "select * from {$g5['menu_table']} where me_use = '1' and me_code like '$me_co%' and me_code != '$me_co'";
+							$result2 = sql_query($sql2);
+
+							for ($k=0; $row2=sql_fetch_array($result2); $k++) {
+							?>
+
+								<li class="<?=$act[$k]?>"><a href="<?=$row2['me_link']?>"><?=$row2['me_name']?></a></li>
+							<?php
+							} }
+							?>		
+						</ul>
+						<p class="both"></p>
+						
+					</div>
+					<!-- end-->
         </div>
     </div>
     <!-- 모바일용 -->
@@ -279,7 +277,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
         <div class="<?php if(!$page_full){ echo "container"; }?>">
             <?php if(!$wr_id){ ?>
             <div class="page-header">
-                <h1><?php if($bo_table){ echo $board['bo_subject'], $sca_name;}else if($depth2) { echo $depth2; }else{ echo "회원가입"; }?> </h1>
+                <h1><?=$sub_txt2?></h1>
             </div>
             <?php } ?>
             <?php } ?>
