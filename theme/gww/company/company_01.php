@@ -14,6 +14,10 @@ include_once('../../../_head.php');
                대한복지진흥원은<br><strong>원주시와 복지TV강원방송이 합작으로 설립</strong>한<br>전국 규모 유일한 민관합작법인입니다. <br>
                <p>대한복지진흥원 회장 이 창 혁</p>
             </div>
+			<div class="text_m">
+               대한복지진흥원은<br><strong>원주시와 복지TV강원방송이 <br />합작으로 설립</strong>한 전국 규모 <br>유일한 민관합작법인입니다. <br>
+               <p>대한복지진흥원 회장 이 창 혁</p>
+            </div>
         </div>
         <div class="about_text">
             <div class="row">

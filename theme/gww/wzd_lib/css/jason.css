@@ -59,14 +59,14 @@
   .footer .inner { padding: 0; text-align: center; }
   .footer .logo { display: inline-block; }
   .footer .logo a { display: block; }
-  .footer .logo a:before { width: 14.2rem; height: 1.4rem; background: url("/images/common/logo-footer-m.png") no-repeat left top; background-size: 100%; }
+  .footer .logo a:before { width: 124px; height: 79px; background: url("/theme/gww/img/common/logo-f-m.png") no-repeat left top; background-size: 100%; }
   .footer .left-group { position: static; }
-  .footer .channel { margin-top: 1.8rem; font-size: 1.4rem; line-height: 2.8rem; letter-spacing: -.1rem; }
+  .footer .channel { margin-top: 0; font-size: 1.0rem; line-height: 2.8rem; letter-spacing: -.1rem;display:none; }
   .footer .list-sns { margin-top: .8rem; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
   .footer .list-sns li + li { margin-left: 1.6rem; }
   .footer .list-sitemap { margin: 3.4rem 0 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
   .footer .list-sitemap > li { position: relative; width: auto; -webkit-box-flex: 1; -ms-flex: 1 0 auto; flex: 1 0 auto; }
-  .footer .list-sitemap > li + li { margin-left: 1.2rem; padding-left: 1.2rem; }
+  .footer .list-sitemap > li + li { margin-left: 1.0rem; padding-left: 1.0rem; }
   .footer .list-sitemap > li + li:before { position: absolute; top: 50%; left: 0; width: 0.1rem; height: 1.4rem; content: ''; background: rgba(221, 221, 221, 0.5); -webkit-transform: translate(0, -50%); transform: translate(0, -50%); }
   .footer .list-sitemap > li em { display: none; }
   .footer .list-sitemap > li .link { display: block; font-size: 1.0rem; color: #fff; line-height: 2rem; letter-spacing: -.07rem; }
@@ -86,10 +86,62 @@
   .footer .footer-group .family-site .partner { display: inline-block; width: 20.6rem; margin-top: 2rem; text-align: left; }
   .footer .footer-group .family-site .partner a { font-size: 1.4rem; line-height: 2rem; letter-spacing: -.07rem; }
   .footer .footer-group .copyright { margin-top: 4rem; font-size: 1.4rem; } 
-}
 
+  .jason_float3 ul li {float:none;padding:2%;width:100%;}
+  .jason_float3_s ul li {float:none;padding:2%;width:100%;}
+  .jason_float3 ul li img {width:100%;}
+  .jason_float4 ul li {float:left;padding:2%;width:48%;margin-right:2%;margin-bottom:2%;}
+  .jason_img {padding:0 10px;}
+  .jason_img img {width:100%;}
+
+  .jason_txt {}
+	.jason_txt p {font-size:18px;padding-bottom:5px;font-weight:300;}
+	.jason_txt h2 {font-size:24px;font-weight:600;color:#333;letter-spacing:-1px;}
+	.jason_txt strong {font-weight:700;color:#de6f08;}
+	
+	.jason_float3_s {width:100%;}
+	.jason_float3_s h4 {font-size:22px;letter-spacing:-1px;}
+	.jason_float3_s p {font-size:16px;}
+
+	.jason_style01 h2 {font-size:22px;letter-spacing:-1px;padding-bottom:10px;line-height:140%;}
+	.jason_style01 p {font-size:15px;}
+}
+@media all and (min-width: 1025px) {
+
+	.jason_float3 ul li {float:left;padding:2%;width:33.3%;}
+	.jason_float3_s ul li {float:left;padding:2%;width:33.3%;}
+	.jason_float4 ul li {float:left;padding:2%;width:23%;margin-right:2%;margin-bottom:2%;}
+
+	.jason_txt {}
+	.jason_txt p {font-size:24px;padding-bottom:10px;font-weight:300;}
+	.jason_txt h2 {font-size:38px;font-weight:600;color:#333;letter-spacing:-1px;}
+	.jason_txt strong {font-weight:700;color:#de6f08;}
+	
+	.jason_float3_s {width:100%;}
+	.jason_float3_s h4 {font-size:22px;letter-spacing:-1px;}
+	.jason_float3_s p {font-size:18px;}
+
+	.jason_style01 h2 {font-size:32px;letter-spacing:-1px;padding-bottom:10px;line-height:140%;}
+	.jason_style01 p {font-size:18px;}
+}
 .sub_jason {background-image: url("/theme/gww/img/main/visual01.jpg");}
 .sub_jason10 {background-image: url("/theme/gww/img/main/visual01.jpg");}
 .sub_jason20 {background-image: url("/theme/gww/img/main/visual02.jpg");}
 .sub_jason30 {background-image: url("/theme/gww/img/main/visual03.jpg");}
 .sub_jason40 {background-image: url("/theme/gww/img/main/visual04.jpg");}
+
+.both {clear:both;}
+.meta_box_wrap {padding:30px 0;}
+.business_meta_box {padding:30px 0;}
+.jason_float3 {width:100%;}
+.jason_float3 h4 {font-size:22px;letter-spacing:-1px;}
+.jason_float3 p {font-size:18px;}
+
+
+
+.jason_tex_c {text-align:center;}
+.jason_tex_l {text-align:left;}
+.jason_box_line ul li {border:#dfdfdf 1px solid; min-height:235px;}
+.jason_bottom_line {border-bottom:#dfdfdf 1px solid;}
+.pdb_50 {padding-bottom:50px;}
+.pdt_50 {padding-top:50px;}

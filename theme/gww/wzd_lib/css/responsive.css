@@ -406,7 +406,7 @@
     }
 
     #header .top_wrap .logo {
-        width: 50%;
+        width: 60%;
     }
 
     #header .top_wrap .nav {
@@ -571,6 +571,7 @@
         padding-right: 15px;
         padding-bottom: 10px;
         margin-top: 16px;
+		min-height:74px;
     }
 
     #index_wrap section.section03 .box_wrap .box .overlay .text a {

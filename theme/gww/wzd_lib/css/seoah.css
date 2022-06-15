@@ -39,7 +39,7 @@
 .ci_wrap img {}
 .ci_wrap img:first-child {margin:0 15px 0 0}
 .ci_wrap .down_btn {text-align:center; margin:30px 0 0 0}
-.ci_wrap .down_btn a {padding:5px 30px; border-radius:15px; background:#de6f08; color:#fff}
+.ci_wrap .down_btn a {padding: 13px 40px; border-radius: 50px; background: #de6f08; color: #fff;}
 .ci_wrap_inner {margin:5rem 0 0 0; padding:0 5rem}
 .ci_wrap_inner dl {display:flex; margin:0 0 5rem 0}
 .ci_wrap_inner dl dt {width:20%; font-size:26px; font-weight:bold;}
@@ -70,7 +70,8 @@
 .direction_inner:nth-child(2):before {width:80px; height:80px; content:"2.0"; background:#de6f08; color:#fff; position:absolute; font-size:40px; text-align:center; padding:20px 0 0 0; border-radius:15%}
 .direction_inner:nth-child(3):before {width:80px; height:80px; content:"3.0"; background:#de6f08; color:#fff; position:absolute; font-size:40px; text-align:center; padding:20px 0 0 0; border-radius:15%}
 .direction_inner:nth-child(4):before {width:80px; height:80px; content:"4.0"; background:#de6f08; color:#fff; position:absolute; font-size:40px; text-align:center; padding:20px 0 0 0; border-radius:15%}
-.direction_inner h5 {font-size:24px; padding: 0 0 0 135px;}
+.direction_inner h5 {font-size:24px; padding: 0 0 0 135px; position:relative;}
+.direction_inner:nth-child(4) h5:before {position: absolute; z-index: -1; width: 27%; height: 12px; background: rgba(248, 189, 49, 1); content: ''; margin-top: 20px;}
 .direction_inner p {font-size:20px; padding: 0 0 0 135px;}
 
 
@@ -85,6 +86,7 @@
 
 
 .organization {}
+.orga_m_ver {display:none}
 .organization .orga_wrap {}
 .organization .orga_wrap .orga_ceo {position:relative; text-align:center; background:#fff}
 .organization .orga_wrap .orga_ceo:after {content:""; position:absolute; z-index:-1; width:1px; height:638px; left:49.98%; background-color:#dfdfdf}
@@ -112,10 +114,7 @@
 .organization .orga_wrap .orga_third ul li:first-child {min-height:214px}
 .organization .orga_wrap .orga_third ul li .third_tit {font-size:18px; color:#fff; background:#de6f08; width:190px; text-align:center; padding:10px 20px; border-radius:15px; letter-spacing:-1px; margin:0 auto 15px }
 .organization .orga_wrap .orga_third ul li .third_tit:before {content:""; position:absolute; z-index:-1; width:1px; height:120px; left:50%; top:-50%; background-color:#dfdfdf}
-.organization .orga_wrap .orga_third ul li .third_cont {font-size:16px; width:190px; margin:0 auto 15px auto; border:1px solid #f8bd31; background:#fff; font-size:16px; border-radius:10px; padding:5px 10px; color:#000; text-align:center}
-
-/* 37.325440, 127.988155 서영에비뉴파크 2차 */
-
+.organization .orga_wrap .orga_third ul li .third_cont {font-size:16px; width:190px; margin:0 auto 15px auto; border:1px solid #f8bd31; background:#fff; border-radius:10px; padding:5px 10px; color:#000; text-align:center}
 
 
 
@@ -123,23 +122,133 @@
 .metaverse_info {width:100%; margin:0 auto;}
 .metaverse_title {background:#f9f9f9; padding:45px 35px; text-align:center;}
 .metaverse_title h4 {font-size:52px; color:#de6f08; margin:0 0 35px 0}
-.metaverse_title h5 {font-size:24px; margin:0 0 15px 0}
+.metaverse_title h5 {font-size:32px; margin:0 0 15px 0}
 .metaverse_title p {font-size:20px; margin:0 0 15px 0}
-.business_top_title_le {width:40%; /*background: linear-gradient(80deg, #de6f08, #f8bd31);*/}
-.business_top_title_le h5 {font-size:52px; color:#fff; padding:150px 0 50px 35px}
-.business_top_title_le p {font-size:20px} 
-.business_top_title_right {width:60%}
+
+.business_meta_wrap {display:flex; margin:30px 0 0 0}
+.business_meta_inner {width:25%; background:#f9f9f9;margin:0 10px; text-align:center; padding:0 25px}
+.business_meta_inner:first-child {width:30%; background:#f9f9f9;margin:0 10px; text-align:center; padding:0 25px}
+.business_meta_inner:nth-child(2) {width:70%; background:#f9f9f9;margin:0 10px; text-align:center; padding:0 25px}
+.business_meta_inner .meta_inner_txt {padding:35px 0; text-align:center}
+.business_meta_inner .meta_inner_txt h5 {font-size:24px; color:#de6f08; margin:15px 0}
+.business_meta_inner .meta_inner_txt p {text-align:left}
+.business_meta_inner .meta_inner_txt p span {font-size:20px; position:relative; padding:0 0 0 15px}
+.business_meta_inner .meta_inner_txt p span:before {position: absolute; left: 0%; top: 50%; width: 0.4rem; height: 0.4rem; margin: -0.2rem 0 0 0; border-radius: 50%; background: #de6f08; content: "";}
 
 
-/* 반응형의 공간 */
+
+/* 공공IT사업 */
+.business_it_wrap {display:flex; margin:30px 0 0 0}
+.business_it_inner {width:25%; background:#f9f9f9;margin:0 10px; text-align:center; padding:0 25px}
+.business_it_inner .it_inner_txt {padding:35px 0; text-align:center}
+.business_it_inner .it_inner_txt h5 {font-size:24px; color:#de6f08; margin:15px 0}
+.business_it_inner .it_inner_txt p {text-align:left}
+.business_it_inner .it_inner_txt p span {font-size:20px; position:relative; padding:0 0 0 15px}
+.business_it_inner .it_inner_txt p span:before {position: absolute; left: 0%; top: 50%; width: 0.4rem; height: 0.4rem; margin: -0.2rem 0 0 0; border-radius: 50%; background: #de6f08; content: "";}
+
+
+/* 영상미디어사업 */
+.business_media_wrap {display:flex; margin:30px 0 0 0}
+.business_media_inner {width:33.4%; background:#f9f9f9;margin:0 10px; text-align:center; padding:0 25px}
+.business_media_inner .media_inner_txt {padding:35px 0; text-align:center}
+.business_media_inner .media_inner_txt h5 {font-size:24px; color:#de6f08; margin:15px 0}
+.business_media_inner .media_inner_txt p {text-align:left}
+.business_media_inner .media_inner_txt p span {font-size:20px; position:relative; padding:0 0 0 15px}
+.business_media_inner .media_inner_txt p span:before {position: absolute; left: 0%; top: 50%; width: 0.4rem; height: 0.4rem; margin: -0.2rem 0 0 0; border-radius: 50%; background: #de6f08; content: "";}
+
+
+/* 게시판 영상 사이즈 */
+.video_w_size {width:100%}
+
+/* 태블릿 반응형 */
+@media (max-width: 1400px) and (min-width:992px) {
+
+/* 조직도 */
+.orga_wrap {}
+.orga_area {text-align:center}
+.orga_area h1{ margin:0 auto; position:relative}
+.orga_area h1:after {content:""; width:1px; height: 300px; background-color:#dfdfdf; position:absolute; top:0; left: 50%; z-index:-1;}
+.orga_area ul {clear:both}
+.orga_area ul li {width:50%; float:left}
+.orga_area ul li h2 {width:200px; height:50px; line-height:50px; background:#f8bd31; margin:0 0 15px 0}
+
+
+.organization {}
+.orga_m_ver {display:none}
+.organization .orga_wrap {}
+.organization .orga_wrap .orga_ceo {position:relative; text-align:center; background:#fff}
+.organization .orga_wrap .orga_ceo:after {content:""; position:absolute; z-index:-1; width:1px; height:638px; left:49.98%; background-color:#dfdfdf}
+.organization .orga_wrap .orga_second {}
+.organization .orga_wrap .orga_second ul{padding:10rem 0 0 0; display:flex}
+.organization .orga_wrap .orga_second ul li{width:49.5%; display:inline-block;}
+.organization .orga_wrap .orga_second ul li:nth-child(2) {position:relative}
+.organization .orga_wrap .orga_second ul li:first-child div {width:190px; background:#000; color:#fff; font-size:18px; border-radius:15px; padding:10px 20px; margin:0 0 15px 56%; text-align:center; letter-spacing:-1px}
+.organization .orga_wrap .orga_second ul li:nth-child(2) div {width:190px; background:#9dbc48; color:#fff; font-size:18px; border-radius:15px; padding:10px 20px; margin:0 0 15px 20%; text-align:center; letter-spacing:-1px}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .second_tit_01 {position:relative;}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .second_tit_01:after {content:""; position:absolute; z-index:-1; width:150px; height:1px; left:80%; top:50%; background-color:#dfdfdf}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .second_tit_02 {position:relative;}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .second_tit_02:before {content:""; position:absolute; z-index:-1; width:300px; height:1px; left:-140%; top:50%; background-color:#dfdfdf}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .mini_second {position:absolute; background:none; color:#000; z-index:1; top:-29%; right:0%}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .mini_second ul {padding:0; display:block}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .mini_second ul li {width:120px; margin:0 0 15px 0; border:1px solid #f8bd31; background:#fff; font-size:16px; border-radius:10px; padding:5px 10px; color:#000;}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .mini_second ul li {}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .mini_second ul li:nth-child(1):before {content:""; position:absolute; z-index:-1; width:100px; height:1px; left:0%; top:16%; background-color:#dfdfdf}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .mini_second ul li:nth-child(2):before {content:""; position:absolute; z-index:-1; width:1px; height:102px; left:-31%; top:-97%; background-color:#dfdfdf}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .mini_second ul li:nth-child(3):before {content:""; position:absolute; z-index:-1; width:100px; height:1px; left:0%; top:75%; background-color:#dfdfdf}
+.organization .orga_wrap .orga_third {position:relative;}
+.organization .orga_wrap .orga_third:after {content:""; position:absolute; z-index:-1; width:761px; height:1px; left:16.6%; top:29%; background-color:#dfdfdf}
+.organization .orga_wrap .orga_third ul{padding:15rem 0 0 0; display:flex}
+.organization .orga_wrap .orga_third ul li{width:33.3%; display:inline-table; position:relative;}
+.organization .orga_wrap .orga_third ul li:first-child {min-height:214px}
+.organization .orga_wrap .orga_third ul li .third_tit {font-size:18px; color:#fff; background:#de6f08; width:190px; text-align:center; padding:10px 20px; border-radius:15px; letter-spacing:-1px; margin:0 auto 15px }
+.organization .orga_wrap .orga_third ul li .third_tit:before {content:""; position:absolute; z-index:-1; width:1px; height:120px; left:50%; top:-50%; background-color:#dfdfdf}
+.organization .orga_wrap .orga_third ul li .third_cont {font-size:16px; width:190px; margin:0 auto 15px auto; border:1px solid #f8bd31; background:#fff; border-radius:10px; padding:5px 10px; color:#000; text-align:center}
+
+
+}
+
+/* 모바일 반응형의 공간 */
 @media (max-width: 991px) {
+
+/* 기관소개 및 연혁 company_02 */
+.companyinfo_cont_box {margin:0 0 40px 0}
+.companyinfo_cont_box h3 {font-size:16px; font-weight:normal; background:#de6f08; border-radius:35px; padding:10px 15px; color:#fff; margin:0 0 15px 0}
+.companyinfo_cont_box h3 .num_p {font-size:16px; display:inline-block; font-weight:bold; border-radius:20px; background:#fff; padding:5px 15px; margin:0 15px 0 0;}
+.companyinfo_cont_box h3 span {font-weight:bold}
+.companyinfo_cont_box ul {}
+.companyinfo_cont_box ul li {background:; position:relative; margin:0 0 15px 25px; font-size:14px; padding:0 0 0 15px; line-height:140%;}
+/*.companyinfo_cont_box ul li:before {position:absolute; left:0%; top:50%; width:0.4rem; height:0.4rem; margin:-0.2rem 0 0 0; border-radius:50%; background:#de6f08; content:""}*/
+.companyinfo_cont_box ul .li_long_2:before {position:absolute; left:0%; top:0%; width:0.4rem; height:0.4rem; margin:-0.2rem 0 0 0; border-radius:50%; background:#de6f08; content:""}
+.companyinfo_cont_box ul .li_long_3:before {position:absolute; left:0%; top:12%; width:0.4rem; height:0.4rem; margin:-0.2rem 0 0 0; border-radius:50%; background:#de6f08; content:""}
+
+.company_02 .history-right {background: url("../../img/company/dot_back.png") 9px 0% repeat-y; margin-top: 10px; margin-left: 80px;}
+.company_02 .history-right .box {background: url('../../img/company/dot.png') 0 14px no-repeat; margin-bottom: 30px; border-bottom: 0; padding-left: 60px; font-size: 30px; font-weight: 900;}
+.company_02 .history-right .box h2 {font-weight: 900; margin-bottom: 20px; color: #000;font-size:16px;}
+.company_02 .history-right dl {display: flex; margin-bottom: 8px;}
+.company_02 .history-right dl dt span {background: #efefef; display: block; border-radius: 1em; text-align: center; font-size: 16px; color: #a1a1a1; padding-top: 6px; padding-bottom: 6px; width: 50px; margin-right: 12px; font-weight: 600;}
+.company_02 .history-right dl dd {font-size: 14px; color: #686868; font-weight: 400; line-height:220%}
+
+.companyinfo_cont_box .realization {position:relative;}
+.companyinfo_cont_box .realization .around_txt_01 {width:250px; height:250px; border:2px solid #de6f08; border-radius:50%; padding:10% 25px; text-align:center; font-size:20px; font-weight:normal; line-height:120%; color:#de6f08;position:absolute;left:10%; font-family:"Noto Sans KR"}
+.companyinfo_cont_box .realization .around_txt_01 span {font-size:16px; color:#4e4e4e; letter-spacing:-2px;}
+.companyinfo_cont_box .realization .around_txt_02 {width:250px; height:250px; border:2px solid #de6f08; border-radius:50%; padding:10% 25px; text-align:center; font-size:20px; font-weight:normal; line-height:120%; color:#de6f08;position:absolute;left:35%; font-family:"Noto Sans KR"}
+.companyinfo_cont_box .realization .around_txt_02 span {font-size:16px; color:#4e4e4e; letter-spacing:-2px;}
+.companyinfo_cont_box .realization .around_txt_03 {width:250px; height:250px; border:2px solid #de6f08; border-radius:50%; padding:10% 25px; text-align:center; font-size:20px; font-weight:normal; line-height:120%; color:#de6f08;position:absolute;left:60%; font-family:"Noto Sans KR"}
+.companyinfo_cont_box .realization .around_txt_03 span {font-size:16px; color:#4e4e4e; letter-spacing:-2px;}
+.companyinfo_cont_box .realization p {padding:30% 0 0 0; font-size:20px; color:#de6f08; text-align:center; position:relative;}
+.companyinfo_cont_box .realization p:after {content:""; position:absolute; width:20px; height:22px; background:url("../../img/company/arrow_ico.png"); bottom:-10%; left:48.5%}
+.companyinfo_cont_box .realization .textbox_orange {background:#595959; display:inline-block; padding:5px 30px; color:#fff; text-align:center}
+
+
+
+/* CI소개 company_03 */
 .ci_wrap img {width:100%}
 .ci_wrap_inner {margin:5rem 0 0 0; padding:0 15px}
 .ci_wrap_inner dl {display:inline; margin:0 0 5rem 0}
 .ci_wrap_inner dl dt {width:100%; font-size:24px; font-weight:bold; margin:0 0 20px 0}
-.ci_wrap_inner dl dd {width:100%; font-size:16px; padding:0 5rem 0 0;}
-.ci_wrap_inner dl dd p {font-size:20px; position:relative; padding:0 0 0 15px}
-.ci_wrap_inner dl dd p:before {position:absolute; left:0%; top:5%; width:0.4rem; height:0.4rem; margin:-0.2rem 0 0 0; border-radius:50%; background:#de6f08; content:""}
+.ci_wrap_inner dl dd {width:100%; font-size:16px; padding:0 15px;}
+.ci_wrap_inner dl dd p {font-size:14px; position:relative; padding:0 0 0 15px}
+.ci_wrap_inner dl dd p:before {position:absolute; left:0%; top:35%; width:0.4rem; height:0.4rem; margin:-0.2rem 0 0 0; border-radius:50%; background:#de6f08; content:""}
 
 
 
@@ -153,6 +262,132 @@
 .business_top_title_le h5 {font-size:52px; color:#fff; padding:150px 0 50px 35px}
 .business_top_title_le p {font-size:20px} 
 .business_top_title_right {width:60%}
+
+
+
+/* 비전 미션 경영이념 company_03 */
+.vision_wrap {display:inline-block;}
+.vision_inner {width:100%; border:1px solid #eee; padding:35px 35px; height:auto; margin:0 0 15px 0}
+.vision_inner:first-child {background:url('../../img/company/mission_ico.png') no-repeat 85% 25%; background-size:20%}
+.vision_inner:nth-child(2) {background:url('../../img/company/vision_ico.png') no-repeat 85% 25%; background-size:20%}
+.vision_inner:nth-child(3) {background:url('../../img/company/value_ico.png') no-repeat 85% 25; background-size:20%}
+.vision_inner h4 {font-size:24px; position:relative;}
+.vision_inner h4:before {position:absolute; left:0%; top:125%; width:60px; height:3px; margin:0; background:#de6f08; content:""}
+.vision_inner p {font-size:14px; margin:35% 0 0 0}
+
+.slogan_inner {width:100%; padding:30px 35px; height:auto; border:1px solid #eee;}
+.slogan_inner h4 {font-size:24px; position:relative;}
+.slogan_inner h4:before {position:absolute; left:0%; top:125%; width:60px; height:3px; margin:0; background:#de6f08; content:""}
+.slogan_inner h5 {font-size:18px; margin:5% 0 0 0; color:#de6f08}
+.slogan_inner p {font-size:14px; margin:10px 0 0 0}
+
+.direction_inner {padding:15px 0; position:relative; border-bottom:1px solid #eee}
+.direction_inner:first-child:before {width:80px; height:80px; content:"1.0"; background:#de6f08; color:#fff; position:absolute; font-size:30px; text-align:center; padding:25px 0 0 0; border-radius:15%}
+.direction_inner:nth-child(2):before {width:80px; height:80px; content:"2.0"; background:#de6f08; color:#fff; position:absolute; font-size:30px; text-align:center; padding:25px 0 0 0; border-radius:15%}
+.direction_inner:nth-child(3):before {width:80px; height:80px; content:"3.0"; background:#de6f08; color:#fff; position:absolute; font-size:30px; text-align:center; padding:25px 0 0 0; border-radius:15%}
+.direction_inner:nth-child(4):before {width:80px; height:80px; content:"4.0"; background:#de6f08; color:#fff; position:absolute; font-size:30px; text-align:center; padding:25px 0 0 0; border-radius:15%}
+.direction_inner h5 {font-size:18px; padding: 0 0 0 120px; position:relative;}
+.direction_inner:nth-child(4) h5:before {position: absolute; z-index: -1; width: 50%; height: 12px; background: rgba(248, 189, 49, 1); content: ''; margin-top: 15px;}
+.direction_inner p {font-size:14px; padding: 0 0 0 120px;}
+
+
+
+/* 조직도 */
+.orga_wrap {}
+.orga_area {text-align:center}
+.orga_area h1{ margin:0 auto; position:relative}
+.orga_area h1:after {content:""; width:1px; height: 300px; background-color:#dfdfdf; position:absolute; top:0; left: 50%; z-index:-1;}
+.orga_area ul {clear:both}
+.orga_area ul li {width:50%; float:left}
+.orga_area ul li h2 {width:200px; height:50px; line-height:50px; background:#f8bd31; margin:0 0 15px 0}
+
+
+.organization {}
+.orga_pc_ver {display:none;}
+.orga_m_ver {display:contents}
+.organization .orga_wrap {}
+.organization .orga_wrap .orga_ceo {position:relative; text-align:center; background:#fff}
+.organization .orga_wrap .orga_ceo:after {content:""; position:absolute; z-index:-1; width:1px; height:638px; left:49.98%; background-color:#dfdfdf}
+.organization .orga_wrap .orga_second {}
+.organization .orga_wrap .orga_second ul{padding:5rem 0 0 0;}
+.organization .orga_wrap .orga_second ul li{width:100%; display:inline-block;}
+.organization .orga_wrap .orga_second ul li:nth-child(2) {position:relative}
+.organization .orga_wrap .orga_second ul li:first-child div {width:100%; background:#000; color:#fff; font-size:16px; border-radius:15px; padding:10px 20px; margin:0 0 15px 0; text-align:center; letter-spacing:-1px}
+.organization .orga_wrap .orga_second ul li:nth-child(2) div {width:190px; background:#9dbc48; color:#fff; font-size:14px; border-radius:15px; padding:10px 20px; margin:0 0 15px 20%; text-align:center; letter-spacing:-1px}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .second_tit_01 {position:relative;}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .second_tit_01:after {content:""; position:absolute; z-index:-1; width:150px; height:1px; left:80%; top:50%; background-color:#dfdfdf}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .second_tit_02 {position:relative;}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .second_tit_02:before {content:""; position:absolute; z-index:-1; width:300px; height:1px; left:-140%; top:50%; background-color:#dfdfdf}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .mini_second {background:#fff; border:1px solid #dfdfdf; color:#000; z-index:1; top:-29%; right:15%}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .mini_second ul {padding:0;}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .mini_second ul li {width:120px; margin:0 0 15px 0; border:1px solid #f8bd31; background:#fff; font-size:16px; border-radius:10px; padding:5px 10px; color:#000;}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .mini_second ul li {}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .mini_second ul li:nth-child(1):before {content:""; position:absolute; z-index:-1; width:100px; height:1px; left:0%; top:16%; background-color:#dfdfdf}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .mini_second ul li:nth-child(2):before {content:""; position:absolute; z-index:-1; width:1px; height:102px; left:-31%; top:-97%; background-color:#dfdfdf}
+.organization .orga_wrap .orga_second ul li:nth-child(2) .mini_second ul li:nth-child(3):before {content:""; position:absolute; z-index:-1; width:100px; height:1px; left:0%; top:75%; background-color:#dfdfdf}
+.organization .orga_wrap .orga_second ul li div:nth-child(4) {background:#9dbc48}
+.organization .orga_wrap .orga_second ul li div:nth-child(5) {background:#9dbc48}
+.organization .orga_wrap .orga_second ul li div:nth-child(6) {background:#9dbc48}
+.organization .orga_wrap .orga_second ul li div:nth-child(7) {background:#9dbc48}
+.organization .orga_wrap .orga_second .mini_second {padding:0; font-size:14px; text-align:center; width:80%; margin:0 auto; background:#fff}
+.organization .orga_wrap .orga_second .mini_second li {margin:0 0 10px 0; border:1px solid #dfdfdf; border-radius:10px; padding:5px 0}
+.organization .orga_wrap .orga_third {position:relative;}
+.organization .orga_wrap .orga_third:after {content:""; position:absolute; z-index:-1; width:936px; height:1px; left:16.6%; top:29%; background-color:#dfdfdf; display:none;}
+.organization .orga_wrap .orga_third ul{padding:0;}
+.organization .orga_wrap .orga_third ul li{width:100%; display:inline-table; position:relative;}
+.organization .orga_wrap .orga_third ul li:first-child {min-height:auto}
+.organization .orga_wrap .orga_third ul li:nth-child(3) .third_titl:before{display:none}
+.organization .orga_wrap .orga_third ul li .third_tit {font-size:16px; color:#fff; background:#de6f08; width:100%; text-align:center; padding:10px 20px; border-radius:15px; letter-spacing:-1px; margin:0 auto 15px }
+.organization .orga_wrap .orga_third ul li .third_tit:before {content:""; position:absolute; z-index:-1; width:1px; height:310px; left:50%; top:-60%; background-color:#dfdfdf}
+.organization .orga_wrap .orga_third ul li .third_cont {font-size:14px; width:80%; margin:0 auto 15px auto; border:1px solid #f8bd31; background:#fff; border-radius:10px; padding:5px 10px; color:#000; text-align:center}
+
+
+
+/* 메타버스 사업 */
+.metaverse_info {width:100%; margin:0 auto;}
+.metaverse_title {background:#f9f9f9; padding:45px 35px; text-align:center;}
+.metaverse_title h4 {font-size:24px; color:#de6f08; margin:0 0 35px 0}
+.metaverse_title h5 {font-size:16px; margin:0 0 15px 0}
+.metaverse_title p {font-size:14px; margin:0 0 15px 0}
+
+.business_meta_wrap {display:flex; margin:30px 0 0 0}
+.business_meta_inner {width:100%; background:#f9f9f9;margin:0 10px; text-align:center; padding:0 25px}
+.business_meta_inner:first-child {width:100%; background:#f9f9f9;margin:0 0 15px 0; text-align:center; padding:0 25px}
+.business_meta_inner:nth-child(2) {width:100%; background:#f9f9f9;margin:0; text-align:center; padding:0 25px}
+.business_meta_inner .meta_inner_txt p img {width:100%}
+.business_meta_inner .meta_inner_txt {padding:35px 0; text-align:center}
+.business_meta_inner .meta_inner_txt h5 {font-size:24px; color:#de6f08; margin:15px 0}
+.business_meta_inner .meta_inner_txt p {text-align:left}
+.business_meta_inner .meta_inner_txt p img {width:100%}
+.business_meta_inner .meta_inner_txt p span {font-size:14px; position:relative; padding:0 0 0 15px}
+.business_meta_inner .meta_inner_txt p span:before {position: absolute; left: 0%; top: 50%; width: 0.4rem; height: 0.4rem; margin: -0.2rem 0 0 0; border-radius: 50%; background: #de6f08; content: "";}
+
+
+
+/* 공공IT사업 */
+.business_it_wrap {width:100%; margin:30px 0 0 0; display:inline-block}
+.business_it_inner {width:100%; background:#f9f9f9;margin:0 0 15px 0; text-align:center; padding:0 25px}
+.business_it_inner .it_inner_txt {padding:35px 0; text-align:center}
+.business_it_inner .it_inner_txt h5 {font-size:24px; color:#de6f08; margin:15px 0}
+.business_it_inner .it_inner_txt p {text-align:left}
+.business_it_inner .it_inner_txt p span {font-size:14px; position:relative; padding:0 0 0 15px}
+.business_it_inner .it_inner_txt p span:before {position: absolute; left: 0%; top: 50%; width: 0.4rem; height: 0.4rem; margin: -0.2rem 0 0 0; border-radius: 50%; background: #de6f08; content: "";}
+
+
+
+
+/* 영상미디어사업 */
+.business_media_wrap {width:100%; display:inline-block; margin:30px 0 0 0}
+.business_media_wrap_m {width:100%; display:inline-block; margin:0px 0 0 0}
+.business_media_inner {width:100%; background:#f9f9f9;margin:0 0 15px 0; text-align:center; padding:0 25px}
+.business_media_inner .media_inner_txt {padding:35px 0; text-align:center}
+.business_media_inner .media_inner_txt h5 {font-size:24px; color:#de6f08; margin:15px 0}
+.business_media_inner .media_inner_txt p {text-align:left}
+.business_media_inner .media_inner_txt p span {font-size:20px; position:relative; padding:0 0 0 15px}
+.business_media_inner .media_inner_txt p span:before {position: absolute; left: 0%; top: 50%; width: 0.4rem; height: 0.4rem; margin: -0.2rem 0 0 0; border-radius: 50%; background: #de6f08; content: "";}
+
+
+
 
 }
 

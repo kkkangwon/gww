@@ -1,9 +1,13 @@
 
   
     $(function(){
+		try {
       SyntaxHighlighter.all();
+		} catch (e) {
+		}
     });
     $(window).load(function(){
+		try {
       $('#carousel').flexslider({
         animation: "slide",
         controlNav: false,
@@ -15,6 +19,9 @@
         asNavFor: '#slider'
       });
 
+		} catch (e) {}
+		
+		try {
       $('#slider').flexslider({
         animation: "slide",
         controlNav: false,
@@ -27,5 +34,6 @@
           $('body').removeClass('loading');
         }
       });
+		} catch (e) {}
     });
     

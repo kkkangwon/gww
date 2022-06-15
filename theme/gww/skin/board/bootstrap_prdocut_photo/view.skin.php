@@ -49,6 +49,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/view.css">', 0)
                       <p class="text"> 
                           <?php echo $view['wr_4'];?>
                       </p>
+                    	
                       <section class="spac-table">
                            <div class="table_wrap">
                                 <table class="table table-hover ">
@@ -59,18 +60,23 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/view.css">', 0)
                                             <th>· 발주처</th>
                                             <td><?php echo $view['wr_1'];?></td>
                                         </tr>
+                                        <?php if($view['wr_2'] != null) { ?>  
                                         <tr>
                                             <th>· 프로젝트기간</th>
                                             <td><?php echo $view['wr_2'];?> </td>
                                         </tr>
+                                        <?php } ?>
+                                        <?php if($view['wr_3'] != null) { ?>  
                                         <tr>
                                             <th>· 플랫폼</th>
                                             <td><?php echo $view['wr_3'];?></td>
                                         </tr>
+                                        <?php }?>
                                     </tbody>
                                 </table>
                             </div>
                     </section>
+                    
                   </div>
                </div>
             </div>

@@ -27,7 +27,7 @@ include_once(G5_THEME_PATH.'/head.php');
         <div class="box_wrap">
             <div class="box box01 animate" data-animate="fadeInUp" data-duration="1.3s" data-delay="0.2s">
                 <div class="scale">
-                    <a href="<?php echo G5_THEME_URL?>/company/company_01.php">
+                    <a href="<?php echo G5_THEME_URL?>/company/business_01.php">
                         <img src="<?php echo G5_THEME_URL?>/img/main/about_benner01.jpg">
                     </a>
                 </div>
@@ -37,7 +37,7 @@ include_once(G5_THEME_PATH.'/head.php');
             </div>
             <div class="box box02 animate" data-animate="fadeInUp" data-duration="1.3s" data-delay="0.3s">
                 <div class="scale">
-                    <a href="<?php echo G5_URL?>/bbs/board.php?bo_table=product_01">
+                    <a href="<?php echo G5_THEME_URL?>/company/business_02.php">
                         <img src="<?php echo G5_THEME_URL?>/img/main/about_benner02.jpg">
                     </a>
                 </div>
@@ -47,7 +47,7 @@ include_once(G5_THEME_PATH.'/head.php');
             </div>
             <div class="box box03 animate" data-animate="fadeInUp" data-duration="1.3s" data-delay="0.4s">
                 <div class="scale">
-                <a href="<?php echo G5_THEME_URL?>/company/company_04.php">
+                <a href="<?php echo G5_THEME_URL?>/company/business_03.php">
                         <img src="<?php echo G5_THEME_URL?>/img/main/about_benner03.jpg">
                     </a>
                 </div>
@@ -61,12 +61,11 @@ include_once(G5_THEME_PATH.'/head.php');
         <div class="container">
             <div class="box_wrap">
                 <div class="box text_wrap">
-                    <h1 class="animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">함께 만나는 미래</h1>
-                    <p class="animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.3s">iMac은 한층 향상된 성능과 Apple 사상 최고의 Retina
-                    디스플레이를 결합하여 궁극의 데스크탑 경험을 두 가지 크기로 선보입니다.<br>
-                    apple.com에서 더 알아보세요</p>
+                    <h1 class="animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">함께 하는 미래</h1>
+                    <p class="animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.3s">대한복지진흥원에서는 미래를 함께 할<br>
+                    신입직원(장애인/비장애인)을 공개 모집합니다.</p>
                     <div class="btn_wrap animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.5s">
-                        <a href="<?php echo G5_URL?>/bbs/write.php?bo_table=online" class="bt_lnk  bt_basic_lnk"><span>문의하기<span></a>
+                        <a href="<?php echo G5_URL?>/bbs/board.php?bo_table=recruitment" class="bt_lnk  bt_basic_lnk"><span>확인하기<span></a>
                     </div>
                 </div>
                 <div class="box video_wrap animate" data-animate="fadeIn" data-duration="1s" data-delay="0.7s">
@@ -83,10 +82,10 @@ include_once(G5_THEME_PATH.'/head.php');
     </section>
     <section class="section03">
         <div class="title animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.3s">
-            <h1>PRODUCT</h1>
-            1970년 설립된 대한민국 최초의 종합 전자부품기업
+            <h1>PORTFOLIO</h1>
+            각 분야 국내 최고 수준의 기업들이 양질의 장애인 일자리 창출을 위해 대한복지진흥원과 함께 합니다.
         </div>
-        <?php echo latest("theme/slider-gallery", "product_01", 4, 32);?>
+        <?php echo latest("theme/slider-gallery", "portfolio", 4, 32);?>
         
         
     </section>
@@ -95,9 +94,8 @@ include_once(G5_THEME_PATH.'/head.php');
         <div class="container">
             <div class="box_wrap">
                 <div class="box box01  animate" data-animate="fadeIn" data-duration="1s" data-delay="0.3s">
-                    <h1><span>위즈테마</span>에 <br>문의 하세요</h1>
-                    위즈테마는 홈페이지제작 및 그누보드테마를
-제작하고 있습니다. 홈페이지 디자인, 코딩도 별도로 가능합니다.
+                    <h1><span>대한복지진흥원</span><br>에 문의 하세요</h1>
+                    우리는 잘할 수 있는 영역만을 다룹니다.
                 </div>
                 <div class="box box02 animate" data-animate="fadeIn" data-duration="1.3s" data-delay="0.5s">
                     <!-- <h2>공지사항</h2> -->
@@ -113,15 +111,15 @@ CHINA 상하이 2021' 참가</a></li>
                 <h2>고객센터</h2>
                 <div class="tel">
                     <ul> 
-                        <li><span>TEL</span><a href="tel:02-2698-5355">02.2698.5355</a></li>
-                        <li><span>FAX</span><a href="tel:02-2698-5355">02.2698.5368</a></li>
+                        <li><span>TEL</span><a href="tel:02-2698-5355">080.800.9000</a></li>
+                        <li><span>FAX</span><a href="tel:02-2698-5355">000.000.0000</a></li>
                     </ul>
                     · 평일 09:00~18:00 ,  토요일 09:00~13:00 
                 </div>
                 <div class="btn_wrap">
                     <ul>
-                        <li><a href="<?php echo G5_URL?>/bbs/write.php?bo_table=online" class="btn btn-pack bt_lnk black bt_more"><i class="fas fa-pencil-alt"></i> 온라인 문의 </a></li>
-                        <li><a href="<?php echo G5_THEME_URL?>/company/company_04.php" class="btn btn-pack gray bt_lnk  bt_more"><i class="fas fa-map-marker-alt"></i> 오시는 길</a></li>
+                        <li><a href="<?php echo G5_URL?>/bbs/write.php?bo_table=cs" class="btn btn-pack bt_lnk black bt_more"><i class="fas fa-pencil-alt"></i> 고객의 소리 </a></li>
+                        <li><a href="<?php echo G5_THEME_URL?>/company/company_06.php" class="btn btn-pack gray bt_lnk  bt_more"><i class="fas fa-map-marker-alt"></i> 오시는 길</a></li>
                     </ul>
                     
                     
@@ -133,18 +131,18 @@ CHINA 상하이 2021' 참가</a></li>
     <section class="section05">
         <div class="container">
             <div class="slider-gallery02 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.3s" data-offset="100">
-                <div class="slider"><a href="#"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner01.jpg" class="img-responsive"></a></div>
-                <div class="slider"><a href="#"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner02.jpg" class="img-responsive"></a></div>
-                <div class="slider"><a href="#"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner03.jpg" class="img-responsive"></a></div>
-                <div class="slider"><a href="#"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner04.jpg" class="img-responsive"></a></div>
-                <div class="slider"><a href="#"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner05.jpg" class="img-responsive"></a></div>
-                <div class="slider"><a href="#"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner06.jpg" class="img-responsive"></a></div>
-                <div class="slider"><a href="#"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner01.jpg" class="img-responsive"></a></div>
-                <div class="slider"><a href="#"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner02.jpg" class="img-responsive"></a></div>
-                <div class="slider"><a href="#"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner03.jpg" class="img-responsive"></a></div>
-                <div class="slider"><a href="#"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner04.jpg" class="img-responsive"></a></div>
-                <div class="slider"><a href="#"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner05.jpg" class="img-responsive"></a></div>
-                <div class="slider"><a href="#"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner06.jpg" class="img-responsive"></a></div>
+                <div class="slider"><a href="https://www.wonju.go.kr/" target="_blank"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner01.jpg" class="img-responsive"></a></div>
+                <div class="slider"><a href="http://gww.co.kr/" target="_blank"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner02.jpg" class="img-responsive"></a></div>
+                <div class="slider"><a href="https://www.kead.or.kr/" target="_blank"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner03.jpg" class="img-responsive"></a></div>
+                <div class="slider"><a href="https://www.wonju.go.kr/" target="_blank"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner01.jpg" class="img-responsive"></a></div>
+                <div class="slider"><a href="http://gww.co.kr/" target="_blank"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner02.jpg" class="img-responsive"></a></div>
+                <div class="slider"><a href="https://www.kead.or.kr/" target="_blank"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner03.jpg" class="img-responsive"></a></div>
+				<div class="slider"><a href="https://www.wonju.go.kr/" target="_blank"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner01.jpg" class="img-responsive"></a></div>
+                <div class="slider"><a href="http://gww.co.kr/" target="_blank"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner02.jpg" class="img-responsive"></a></div>
+                <div class="slider"><a href="https://www.kead.or.kr/" target="_blank"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner03.jpg" class="img-responsive"></a></div>
+				<div class="slider"><a href="https://www.wonju.go.kr/" target="_blank"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner01.jpg" class="img-responsive"></a></div>
+                <div class="slider"><a href="http://gww.co.kr/" target="_blank"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner02.jpg" class="img-responsive"></a></div>
+                <div class="slider"><a href="https://www.kead.or.kr/" target="_blank"><img src="<?php echo G5_THEME_URL?>/img/main/foot_benner03.jpg" class="img-responsive"></a></div>
             </div>
             <script>
             $(document).ready(function() {

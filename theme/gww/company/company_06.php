@@ -1,8 +1,8 @@
 <?php
 $pageNum = "0";
-$subNum = "6";
+$subNum = "5";
 $depth1 = "회사소개";
-$depth1 = "찾아오시는 길";
+$depth2 = "찾아오시는 길";
 include_once('../../../common.php');
 include_once('../../../_head.php');
 ?>
@@ -52,7 +52,7 @@ marker.setMap(map);
 				</tr>
 				<tr>
 					<th>FAX</th>
-                    <td>02-2698-5355</td>
+                    <td>000-000-0000</td>
 				</tr>
                 <!--<tr>
                     <th>버스</th>

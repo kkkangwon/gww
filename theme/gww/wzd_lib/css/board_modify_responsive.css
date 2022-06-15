@@ -1,6 +1,21 @@
 @media(max-width:991px) { 
     /* 카테고리 */
-    #bo_cate_ul li a {
+	#bo_cate_ul {
+    display:inline;
+	/*display:flex;*/
+    justify-content:space-between;
+	}
+	#bo_cate_ul li {
+		background: #fff !important;
+		box-shadow: none;
+		width:50%;
+		display:inline-block;
+		/*width: 100%;
+		display:block;*/
+		text-align: center;
+		padding: 0;
+	}
+		#bo_cate_ul li a {
 
       padding-top: 12px;
       padding-bottom: 12px;
@@ -13,7 +28,7 @@
     #bo_cate_ul li #bo_cate_on {
         background: #fff;
       border-bottom: 0;
-      border-top: 1px #000 solid;
+      border-top: 2px #000 solid;
       outline: none;
       text-decoration: none;
       color: #000;

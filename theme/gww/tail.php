@@ -95,7 +95,7 @@ if(G5_COMMUNITY_USE === false) {
 				<address>
 					<strong>대한복지진흥원</strong><br />
 					강원도 원주시 건강로 21-1 서영에비뉴파크 2차, 506호(반곡동) 
-					<strong>전화번호</strong> : 080-800-9000 <strong>팩스</strong> : 02-2698-5355
+					<strong>전화번호</strong> : 080-800-9000 <!--strong>팩스</strong> : 000-000-0000-->
 				</address>
 				<p class="copyright">© 2022 Korea Welfare Organization All Rights Reserved</p>
 			</div>
@@ -116,8 +116,8 @@ if(G5_COMMUNITY_USE === false) {
 				<p class="logo"><img src="<?php echo G5_THEME_URL?>/img/main/logo-sub.png"></p>
 				<address>
 					<strong>대한복지진흥원</strong>
-					주소 : 강원도 원주시 건강로 21-1 서영에비뉴파크 2차, 506호(반곡동) <strong>대표 : </strong> 나대표
-					<strong>전화번호</strong> : 080-800-9000 <strong>팩스</strong> : 02-2698-5355
+					주소 : 강원도 원주시 건강로 21-1 서영에비뉴파크 2차, 506호(반곡동) 
+					<strong>전화번호</strong> : 080-800-9000 <!--strong>팩스</strong> : 000-000-0000-->
 					<p>Copyright &copy; 2022 <strong>Korea Welfare Organization</strong>  All Rights Reserved.</p>
 				</address>
 			</div>
@@ -127,7 +127,7 @@ if(G5_COMMUNITY_USE === false) {
 <div class="sidebar-offcanvas" id="sidebar">
     <div class="js-offcanvas">
         <div class="title_wrap">
-        <h3><img src=""></h3><p class="close-btn js-close-btn"><i class="fas fa-times "></i></p>
+        <h3><img src="/theme/gww/img/common/logo-m.png"></h3><p class="close-btn js-close-btn"><i class="fas fa-times "></i></p>
         </div>
         <div off-canvas="slidebar-1 left reveal">
             <ul class="sidebar-menu">
@@ -155,13 +155,13 @@ if(G5_COMMUNITY_USE === false) {
                     <a href="#"><span>알림마당</span> <i class="fa fa-angle-right pull-right"></i> </a>
                     <ul class="sidebar-submenu">
                         <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=notice">공지사항</a></li>
-						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=notice">채용정보</a></li>
-						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=notice">자료실</a></li>
-						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=notice">경영고시</a></li>
-						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=notice">사회공헌활동</a></li>
+						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=recruitment">채용정보</a></li>
+						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=reference">자료실</a></li>
+						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=management">경영고시</a></li>
+						<li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=contribute">사회공헌활동</a></li>
                     </ul>
                 </li>
-                <li><a href="<?php echo G5_URL?>/bbs/write.php?bo_table=online"> <span>고객 참여</span> <i class="fa fa-angle-right pull-right"></i></a>
+                <li><a href="<?php echo G5_URL?>/bbs/write.php?bo_table=qa"> <span>고객 참여</span> <i class="fa fa-angle-right pull-right"></i></a>
                    <ul class="sidebar-submenu">
                         <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=qa">자주묻는 질문</a></li>
                         <li><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=cs">고객의 소리</a></li>
@@ -176,7 +176,7 @@ if(G5_COMMUNITY_USE === false) {
                 <a href="<?php echo G5_URL?>/bbs/login.php" class="btn btn btn-pack">LOGIN</a>
                 <?php } ?>
                 
-              <a href="<?php echo G5_URL?>/bbs/write.php?bo_table=online" class="btn btn btn-pack">FAQ</a>
+              <a href="<?php echo G5_URL?>/bbs/write.php?bo_table=cs" class="btn btn btn-pack">고객의 소리</a>
             </div> 
             <!--<div class="etc_wrap">
                 <div class="cont">

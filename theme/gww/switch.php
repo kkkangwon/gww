@@ -1,74 +1,56 @@
 <?php
  switch ($bo_table) {      
     case "notice":
-		$pageNum = "1";
+		$pageNum = "2";
         $subNum = "0";
-        $depth1 = "r";
+        $depth1 = "알림마당";
         $depth2 = "{$board['bo_subject']}"; 
 	break;
-    case "product_02":
-		$pageNum = "1";
-        $subNum = "1";
-        $depth1 = "제품소개";
-        $depth2 = "{$board['bo_subject']}"; 
-	break;
-    case "product_03":
-		$pageNum = "1";
-        $subNum = "2";
-        $depth1 = "제품소개";
-        $depth2 = "{$board['bo_subject']}"; 
-	break;  
-    case "product_04":
+    case "portfolio":
 		$pageNum = "1";
         $subNum = "3";
-        $depth1 = "제품소개";
+        $depth1 = "사업소개";
+        $depth2 = "{$board['bo_subject']}"; 
+	break;
+    case "recruitment":
+		$pageNum = "2";
+        $subNum = "1";
+        $depth1 = "알림마당";
+        $depth2 = "{$board['bo_subject']}"; 
+	break;  
+    case "reference":
+		$pageNum = "2";
+        $subNum = "2";
+        $depth1 = "알림마당";
         $depth2 = "{$board['bo_subject']}"; 
 	break;   
-    case "product_05":
-		$pageNum = "1";
+    case "management":
+		$pageNum = "2";
+        $subNum = "3";
+        $depth1 = "알림마당";
+        $depth2 = "{$board['bo_subject']}"; 
+	break;   
+    case "contribute":
+		$pageNum = "2";
         $subNum = "4";
-        $depth1 = "제품소개";
-        $depth2 = "{$board['bo_subject']}"; 
-	break;   
-    case "product_06":
-		$pageNum = "1";
-        $subNum = "5";
-        $depth1 = "제품소개";
+        $depth1 = "사회공헌활동";
         $depth2 = "{$board['bo_subject']}"; 
 	break;     
 
-      case "free":
-		$pageNum = "2";
+      case "qa":
+		$pageNum = "3";
         $subNum = "0";
-        $depth1 = "인재채용";
+        $depth1 = "고객참여";
         $depth2 = "{$board['bo_subject']}"; 
 	break;
          
-     case "notice":
-		$pageNum = "3";
-        $subNum = "0";
-        $depth1 = "공지사항";
-        $depth2 = "{$board['bo_subject']}"; 
-	break;
-     case "qa":
+     case "cs":
 		$pageNum = "3";
         $subNum = "1";
-        $depth1 = "고객센터";
+        $depth1 = "고객참여";
         $depth2 = "{$board['bo_subject']}"; 
 	break;
-     case "gallery":
-		$pageNum = "3";
-        $subNum = "2";
-        $depth1 = "고객센터";
-        $depth2 = "{$board['bo_subject']}"; 
-	break;
-   
-     case "online":
-		$pageNum = "4";
-        $subNum = "0";
-        $depth1 = "온라인 문의";
-        $depth2 = "{$board['bo_subject']}"; 
-	break;  	  
+ 
   };
   switch ($co_id) {      
     case "company":

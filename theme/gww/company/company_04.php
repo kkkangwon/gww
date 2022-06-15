@@ -9,7 +9,7 @@ include_once('../../../_head.php');
 
 
 <section class="company company_04">
-    <h3 class="company_h3">위즈테마 홈페이지를 찾아주신 여러분들을 진심으로 환영합니다.</h3>
+    <h3 class="company_h3">새로운 복지의 방향성, 대한복지진흥원이 제시합니다.</h3>
     <div class="vision_wrap">
 		<div class="vision_inner">
 			<h4>MISSION</h4>

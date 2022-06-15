@@ -132,15 +132,15 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                 <div class="box box01">
                     
                     <dl>
-                        <dt><a href="<?php echo G5_THEME_URL?>/company/company_01.php">회사소개</a></dt>
-                        <dd>위즈테마는 테마 및 디자인, 코딩등 홈페이지의 전반적인 일을 하는 기업입니다.</dd>
+                        <dt><a href="<?php echo G5_THEME_URL?>/company/company_01.php">진흥원소개</a></dt>
+                        <dd>Welfare Innovator & Good Business Partner.</dd>
                     </dl>
                     
                 </div>
                 <div class="box box02">
                     <dl>
-                        <dt><a href="<?php echo G5_URL?>/bbs/board.php?bo_table=product_01">제품소개</a></dt>
-                        <dd>위즈테마에서 제작한 다양한 스킨 및 테마들을 구경해보세요.</dd>
+                        <dt><a href="/down/introduction.pdf" target="_blank">회사소개서 다운로드</a></dt>
+                        <dd>대한복지진흥원 소개서를 다운받아보세요.</dd>
                     </dl>
                 </div>
             </div>
@@ -150,9 +150,9 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                 <div class="swiper-content">
                     <div class="container">
                         <div class="content text-left">
-                            <h1 class="animated" data-swiper-animation="fadeInUp" data-duration=".8s" data-delay="1s" data-swiper-out-animation="fadeIn" data-out-duration="2s">위즈테마 v.07<br>버진이 새롭게<br>출시 했습니다.</h1>
+                            <h1 class="animated" data-swiper-animation="fadeInUp" data-duration=".8s" data-delay="1s" data-swiper-out-animation="fadeIn" data-out-duration="2s">국내유일 <br/>전국규모 컨소시엄형<br>장애인표준 사업장</h1>
                             <div class="line animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1.8s" data-swiper-out-animation="fadeIn" data-out-duration="2s"></div>
-                            <p class="animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1.3s" data-swiper-out-animation="fadeIn" data-out-duration="2s">위즈테마템플릿07버전이 출시 했습니다. <br>쉽고 퀄리티가 다른 위즈테마 템플릿. 불법사용을 금지합니다</p>
+                            <p class="animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1.3s" data-swiper-out-animation="fadeIn" data-out-duration="2s">국내 유일 전국규모컨소시엄형 장애인표준사업장으로써, <br>새로운 복지의 방향성을 제시합니다.</p>
                             <div class="btn_wrap"><a href="<?php echo G5_THEME_URL?>/company/company_02.php" class="btn btn-default animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1.5s" data-swiper-out-animation="fadeIn" data-out-duration="2s">more</a></div>
                         </div>
                     </div>
@@ -165,10 +165,10 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                 <div class="swiper-content">
                     <div class="container">
                         <div class="content text-left">
-                            <h1 class="animated" data-swiper-animation="fadeInUp" data-duration=".8s" data-delay="1s" data-swiper-out-animation="fadeIn" data-out-duration="2s">YOUTUBE <br>PLAYERS CODE</h1>
+                            <h1 class="animated" data-swiper-animation="fadeInUp" data-duration=".8s" data-delay="1s" data-swiper-out-animation="fadeIn" data-out-duration="2s">METAVERSE, <br />IT, MULTIMEDIA<br></h1>
                             <div class="line animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1.8s" data-swiper-out-animation="fadeIn" data-out-duration="2s"></div>
-                            <p class="animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1.3s" data-swiper-out-animation="fadeIn" data-out-duration="2s">위즈테마템플릿06버전이 출시 했습니다. <br>쉽고 퀄리티가 다른 위즈테마 템플릿. 불법사용을 금지합니다</p>
-                            <div class="btn_wrap"><a href="<?php echo G5_THEME_URL?>/company/company_02.php" class="btn btn-default animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1.5s" data-swiper-out-animation="fadeIn" data-out-duration="2s">more</a></div>
+                            <p class="animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1.3s" data-swiper-out-animation="fadeIn" data-out-duration="2s">4차산업혁명시대를 주도하는<br>메타버스, IT, 영상 미디어 등을 이용한 사업을 전개합니다.</p>
+                            <div class="btn_wrap"><a href="<?php echo G5_THEME_URL?>/company/business_01.php" class="btn btn-default animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1.5s" data-swiper-out-animation="fadeIn" data-out-duration="2s">more</a></div>
                         </div>
                     </div>
                 </div>
@@ -178,9 +178,9 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                 <div class="swiper-content">
                     <div class="container">
                     <div class="content text-left">
-                            <h1 class="animated" data-swiper-animation="fadeInUp" data-duration=".8s" data-delay="1s" data-swiper-out-animation="fadeIn" data-out-duration="2s">위즈테마 v.07<br>버진이 새롭게<br>출시 했습니다.</h1>
+                            <h1 class="animated" data-swiper-animation="fadeInUp" data-duration=".8s" data-delay="1s" data-swiper-out-animation="fadeIn" data-out-duration="2s">장애인을 '이용한' <br/>기업이 아닌 <br>장애인을 '위한' 기업</h1>
                             <div class="line animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1.8s" data-swiper-out-animation="fadeIn" data-out-duration="2s"></div>
-                            <p class="animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1.3s" data-swiper-out-animation="fadeIn" data-out-duration="2s">위즈테마템플릿07버전이 출시 했습니다. <br>쉽고 퀄리티가 다른 위즈테마 템플릿. 불법사용을 금지합니다</p>
+                            <p class="animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1.3s" data-swiper-out-animation="fadeIn" data-out-duration="2s">장애인에게는 단순히 고용의 기회를 넘어 <br>자아실현의 기회를, 공공기관에는 전문성을 갖춘 최적의 솔루션을 제공합니다.</p>
                             <div class="btn_wrap"><a href="<?php echo G5_THEME_URL?>/company/company_02.php" class="btn btn-default animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1.5s" data-swiper-out-animation="fadeIn" data-out-duration="2s">more</a></div>
                         </div>
                     </div>
@@ -192,9 +192,9 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                 <div class="swiper-content">
                     <div class="container">
                     <div class="content text-left">
-                            <h1 class="animated" data-swiper-animation="fadeInUp" data-duration=".8s" data-delay="1s" data-swiper-out-animation="fadeIn" data-out-duration="2s">위즈테마 v.07<br>버진이 새롭게<br>출시 했습니다.</h1>
+                            <h1 class="animated" data-swiper-animation="fadeInUp" data-duration=".8s" data-delay="1s" data-swiper-out-animation="fadeIn" data-out-duration="2s">장애인을 '배려한'<br>운영을 통한<br>차세대 복지시스템 실현</h1>
                             <div class="line animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1.8s" data-swiper-out-animation="fadeIn" data-out-duration="2s"></div>
-                            <p class="animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1.3s" data-swiper-out-animation="fadeIn" data-out-duration="2s">위즈테마템플릿07버전이 출시 했습니다. <br>쉽고 퀄리티가 다른 위즈테마 템플릿. 불법사용을 금지합니다</p>
+                            <p class="animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1.3s" data-swiper-out-animation="fadeIn" data-out-duration="2s">장애인을 '배려한' 운영을 통한<br> 차세대 복지 시스템을 실현 하고자 합니다.</p>
                             <div class="btn_wrap"><a href="<?php echo G5_THEME_URL?>/company/company_02.php" class="btn btn-default animated" data-swiper-animation="fadeInUp" data-duration="1.2s" data-delay="1.5s" data-swiper-out-animation="fadeIn" data-out-duration="2s">more</a></div>
                         </div>
                     </div>
@@ -264,7 +264,27 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                 <div class="sub_three_nav last">
                     <ul>
                         <li class="depth2 clickSlide">
-                            <a href="javascript:;"></a><i class="fas fa-angle-down"></i>
+                            <a href="#">제목제목</a><i class="fas fa-angle-down"></i>
+							<ul>
+								<?php
+									if($main_url=="register_form.php" or $main_url=="register.php" or $main_url=="register_result.php"){
+
+										}else{
+
+									//	$sql3 = "select * from {$g5['menu_table']} where me_use = '1' and me_code like '$me_co%' and me_code != '$me_co'";
+									//	$result3 = sql_query($sql3);
+
+										for ($k=0; $row3=sql_fetch_array($result2); $k++) {
+										?>
+
+										<li class="<?=$act[$k]?> "><a href="<?=$row3['me_link']?>"><?=$row3['me_name']?></a></li>
+										<?php
+										} }
+										?>	
+										 <!--li class="depth2 clickSlide">
+											<a href="javascript:;"></a><i class="fas fa-angle-down"></i>
+										</li-->
+							</ul>
                         </li>
                     </ul>
                 </div>

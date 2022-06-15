@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 @media all and (max-width: 1024px) { 
-ul.faq_list_board p.q {display: block; padding:20px 30px 20px 40px; position: relative; border-bottom: 1px solid #f9f9f9; font-weight: 500; cursor: pointer;font-size:16px;}
-ul.faq_list_board div.answer .desc {font-size:16px;}
+ul.faq_list_board p.q {font-size:16px !important;}
+ul.faq_list_board div.answer .desc {font-size:16px !important;}
 }
 
 ul.faq_list_board p.q .btn_b03 {font-size:16px;}
